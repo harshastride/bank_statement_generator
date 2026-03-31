@@ -1,0 +1,20 @@
+{
+  "customer_name": "MRS VARSHITHA N",
+  "address_line_1": "38 3RD CROSS NEAR LIC CARE HOME",
+  "address_line_2": "KUVEMPUNAGARA MADANAIYAKANAHALLI",
+  "city_state": "BANGALORE RURAL KA I",
+  "pin": "562123 562123",
+  "account_number": "073-685745-006",
+  "account_type": "SAVINGS ACCOUNT - RES",
+  "branch": "BANGALORE BRANCH",
+  "ifsc": "HSBC0560002",
+  "micr": "560039002",
+  "nominee": "Yes",
+  "current_balance": "18,076.06",
+  "overdraft": "0.00",
+  "currency": "INR",
+  "download_date": "31/03/2026",
+  "print_date": "3/31/26",
+  "print_time": "9:09 AM",
+  "generated_on": "31/03/2026 09:09 AM"
+}

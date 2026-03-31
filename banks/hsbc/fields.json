@@ -1,0 +1,61 @@
+{
+  "printToPdf": true,
+  "accountSections": [
+    {
+      "title": "Account Holder",
+      "fields": [
+        { "key": "customer_name", "label": "Full Name", "required": true, "span": 2 },
+        { "key": "address_line_1", "label": "Address Line 1" },
+        { "key": "address_line_2", "label": "Address Line 2" },
+        { "key": "city_state", "label": "City / State" },
+        { "key": "pin", "label": "PIN Code" }
+      ]
+    },
+    {
+      "title": "Account Information",
+      "fields": [
+        { "key": "account_number", "label": "Account Number", "required": true },
+        { "key": "account_type", "label": "Account Type", "required": true },
+        { "key": "branch", "label": "Branch Name" },
+        { "key": "ifsc", "label": "IFSC Code" },
+        { "key": "micr", "label": "MICR Code" },
+        { "key": "nominee", "label": "Nominee Registered" }
+      ]
+    },
+    {
+      "title": "Balance & Currency",
+      "fields": [
+        { "key": "current_balance", "label": "Current Balance", "required": true, "mono": true },
+        { "key": "overdraft", "label": "Overdraft Limit", "mono": true },
+        { "key": "currency", "label": "Currency" }
+      ]
+    },
+    {
+      "title": "Statement Metadata",
+      "fields": [
+        { "key": "download_date", "label": "Download Date" },
+        { "key": "print_date", "label": "Print Date" },
+        { "key": "print_time", "label": "Print Time" }
+      ]
+    }
+  ],
+  "transactionColumns": [
+    { "key": "date",       "label": "Date",        "type": "date",   "width": "w-28" },
+    { "key": "description","label": "Description", "type": "text",   "flex": true },
+    { "key": "credit",     "label": "Credit",      "type": "amount", "width": "w-28", "color": "green" },
+    { "key": "debit",      "label": "Debit",       "type": "amount", "width": "w-28", "color": "red" },
+    { "key": "balance",    "label": "Balance",     "type": "amount", "width": "w-32", "readonly": true }
+  ],
+  "csvHeaders": "Date,Description,Credit,Debit,Balance",
+  "csvHeaderMap": {
+    "Date": "date",
+    "Description": "description",
+    "Transaction Details": "description",
+    "Credit": "credit",
+    "Deposits": "credit",
+    "Debit": "debit",
+    "Withdrawals": "debit",
+    "Balance": "balance"
+  },
+  "csvExample": "Date,Description,Credit,Debit,Balance\n27/03/2026,TRANSFER - Mubaraq Basha,,57.00,18076.06\n26/03/2026,TRANSFER - Thanushree N,,46.00,18133.06\n26/03/2026,TRANSFER - KARTHIK H N,50.00,,18179.06"
+}

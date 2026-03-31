@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.git/
+node_modules/
+frontend/node_modules/
+frontend/dist/
+data/
+*.pdf
+.DS_Store
+chrome-extension/
+nginx/ssl/

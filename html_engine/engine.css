@@ -1,0 +1,112 @@
+:root {
+  --page-width: 638pt;
+  --page-height: 842pt;
+  --screen-bg: #edf1f5;
+  --paper: #ffffff;
+  --text: #000000;
+  --table-fill: #dffbff;
+  --grid: #808080;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--screen-bg);
+  color: var(--text);
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.precise-workspace {
+  padding: 24px 16px 48px;
+}
+
+.precise-pages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.precise-page {
+  position: relative;
+  width: var(--page-width);
+  height: var(--page-height);
+  background: var(--paper);
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.14);
+  overflow: hidden;
+}
+
+.precise-logo {
+  position: absolute;
+  display: block;
+}
+
+.precise-box {
+  position: absolute;
+  border-style: solid;
+  border-color: #000;
+  background: transparent;
+}
+
+.precise-text {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  color: var(--text);
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.precise-text.align-right {
+  text-align: right;
+}
+
+.precise-line {
+  position: absolute;
+  background: var(--grid);
+}
+
+.precise-table-fill {
+  position: absolute;
+  background: var(--table-fill);
+}
+
+@page {
+  size: 638pt 842pt;
+  margin: 0;
+}
+
+@media print {
+  html,
+  body {
+    background: #fff;
+  }
+
+  .precise-workspace {
+    padding: 0;
+  }
+
+  .precise-pages {
+    gap: 0;
+  }
+
+  .precise-page {
+    box-shadow: none;
+    break-after: page;
+    page-break-after: always;
+  }
+
+  .precise-page:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+}

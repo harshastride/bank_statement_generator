@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <title>Account summary and transactions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @page {
+      size: A4;
+      margin: 10mm 12mm 10mm 12mm;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #333333;
+      font-size: 10px;
+      line-height: 1.4;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      background: #fff;
+    }
+
+    /* ── Header section ── */
+    .stmt-title {
+      font-size: 15.6px;
+      color: #D40D0D;
+      font-weight: normal;
+      margin-bottom: 2px;
+      letter-spacing: -0.2px;
+    }
+    .acct-type-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #dee2e6;
+    }
+    .acct-type { font-size: 15.6px; color: #333333; }
+    .bal-large { font-size: 15.6px; color: #333333; }
+    .cur-label { font-size: 9.93px; color: #666666; margin-left: 2px; }
+
+    /* ── Info grid (2-column layout like real HSBC) ── */
+    .info-section {
+      display: table;
+      width: 100%;
+      margin-bottom: 6px;
+      font-size: 9.93px;
+    }
+    .info-row {
+      display: table-row;
+    }
+    .info-left {
+      display: table-cell;
+      padding: 2.5px 0;
+      color: #212529;
+      width: 50%;
+    }
+    .info-right {
+      display: table-cell;
+      padding: 2.5px 0;
+      text-align: right;
+      color: #666666;
+      width: 50%;
+    }
+    .info-lbl { color: #666666; }
+    .info-val { color: #333333; }
+
+    /* ── Search results heading ── */
+    .search-hd {
+      font-size: 14.17px;
+      color: #212529;
+      margin: 18px 0 6px 0;
+      font-weight: normal;
+    }
+    .date-range {
+      font-size: 9.93px;
+      color: #212529;
+      margin-bottom: 10px;
+    }
+    .date-range .dr-lbl { color: #666666; }
+    .date-range .dr-val { color: #212529; font-weight: normal; }
+
+    /* ── Transaction table ── */
+    .txn-tbl {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 12px;
+    }
+    .txn-tbl th {
+      text-align: left;
+      font-weight: bold;
+      font-size: 9.93px;
+      color: #333333;
+      padding: 8px 4px 8px 4px;
+      border-top: 1px solid #cccccc;
+      border-bottom: 1px solid #cccccc;
+    }
+    .txn-tbl th.r { text-align: right; }
+
+    /* ── Column widths matching real HSBC ── */
+    .col-date { width: 90px; }
+    .col-desc { width: auto; }
+    .col-amt  { width: 100px; }
+
+    /* Summary row (date group header with closing balance) */
+    .txn-tbl .s-row td {
+      padding: 10px 4px 3px 4px;
+      border-top: 1px solid #dee2e6;
+      font-size: 11.35px;
+      color: #333333;
+    }
+    .txn-tbl .s-row .s-bal {
+      text-align: right;
+      font-size: 11.35px;
+    }
+
+    /* Detail row (individual transaction) */
+    .txn-tbl .d-row td {
+      padding: 3px 4px;
+      border-top: 1px solid #eeeeee;
+      font-size: 11.35px;
+      color: #333333;
+      vertical-align: top;
+    }
+    .txn-tbl .d-row .amt {
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    /* Closing balance at bottom of table */
+    .txn-tbl .c-row td {
+      padding: 10px 4px 3px 4px;
+      border-top: 2px solid #cccccc;
+      font-size: 11.35px;
+      font-weight: bold;
+      color: #333333;
+    }
+    .txn-tbl .c-row .c-bal {
+      text-align: right;
+      font-size: 11.35px;
+    }
+
+    /* ── Disclaimer ── */
+    .disc {
+      font-size: 11.35px;
+      color: #212529;
+      margin-top: 20px;
+      line-height: 1.5;
+      page-break-inside: avoid;
+    }
+    .disc p { margin-bottom: 8px; }
+    .disc a { color: #0000EE; text-decoration: none; }
+
+    /* ── Print bar (hidden on print) ── */
+    @media print {
+      .no-print { display: none !important; }
+      .content { padding-top: 0 !important; }
+    }
+    .print-bar {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: #f8f9fa;
+      border-bottom: 1px solid #dee2e6;
+      padding: 10px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      z-index: 9999;
+      font-family: Arial, sans-serif;
+      font-size: 13px;
+      color: #333;
+    }
+    .print-bar .hint { color: #666; }
+    .print-bar .hint b { color: #333; }
+    .print-bar .btn-print {
+      background: #DB0011;
+      color: white;
+      border: none;
+      padding: 8px 24px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      letter-spacing: 0.2px;
+    }
+    .print-bar .btn-print:hover { background: #b8000e; }
+    .content { padding-top: 52px; padding: 52px 20px 20px 20px; }
+    @media print { .content { padding: 0; } }
+  </style>
+  <script>
+    // Replace URL in address bar with about:blank (matches real HSBC behavior)
+    if (window.history && window.history.replaceState) {
+      window.history.replaceState(null, '', 'about:blank');
+    }
+  </script>
+</head>
+<body>
+  <div class="print-bar no-print">
+    <span class="hint">HSBC Statement &mdash; Use <b>Ctrl+P</b> (or <b>Cmd+P</b>) &rarr; <b>Save as PDF</b> for browser-printed statement</span>
+    <button class="btn-print" onclick="window.print()">Print / Save as PDF</button>
+  </div>
+
+  <div class="content" id="stmt"></div>
+
+  <script>
+    var DATA = __STATEMENT_DATA__;
+
+    function fmt(n) {
+      if (n === '' || n === null || n === undefined) return '';
+      var num = parseFloat(String(n).replace(/,/g, ''));
+      if (isNaN(num)) return '';
+      // Indian number formatting
+      var parts = num.toFixed(2).split('.');
+      var int = parts[0];
+      var dec = parts[1];
+      var sign = '';
+      if (int[0] === '-') { sign = '-'; int = int.slice(1); }
+      if (int.length > 3) {
+        var last3 = int.slice(-3);
+        var rest = int.slice(0, -3);
+        int = rest.replace(/\B(?=(\d{2})+(?!\d))/g, ',') + ',' + last3;
+      }
+      return sign + int + '.' + dec;
+    }
+
+    function esc(s) {
+      var d = document.createElement('div');
+      d.textContent = s || '';
+      return d.innerHTML;
+    }
+
+    function render() {
+      var a = DATA.account || {};
+      var txns = DATA.transactions || [];
+      var h = '';
+
+      // Title
+      h += '<div class="stmt-title">HSBC Account Statement</div>';
+
+      // Account type + balance
+      h += '<div class="acct-type-row">';
+      h += '<span class="acct-type">' + esc(a.account_type) + '</span>';
+      h += '<span><span class="bal-large">' + fmt(a.current_balance) + '</span><span class="cur-label">' + esc(a.currency || 'INR') + '</span></span>';
+      h += '</div>';
+
+      // Info grid
+      h += '<div class="info-section">';
+      h += r2(esc(a.customer_name), '<span class="info-lbl">Available balance:</span> ' + fmt(a.current_balance) + ' ' + esc(a.currency || 'INR'));
+      h += r2('<span class="info-lbl">' + esc(a.address_line_1) + '</span>', '<span class="info-lbl">Overdraft limit:</span> ' + fmt(a.overdraft || '0.00') + ' ' + esc(a.currency || 'INR'));
+      h += r2('<span class="info-lbl">' + esc(a.address_line_2) + '</span>', '<span class="info-lbl">Date of statement download:</span>' + esc(a.download_date));
+      h += r2('<span class="info-lbl">' + esc(a.city_state) + '</span>', '');
+      h += r2('<span class="info-lbl">' + esc(a.pin) + '</span>', '');
+      h += r2('<span class="info-lbl">Account number:</span> <span class="info-val">' + esc(a.account_number) + '</span>', '');
+      h += r2('<span class="info-val">Branch Name:' + esc(a.branch) + '</span>', '');
+      h += r2('<span class="info-lbl">MICR Code:' + esc(a.micr) + '</span>', '');
+      h += r2('<span class="info-val">IFSC Code:' + esc(a.ifsc) + '</span>', '');
+      h += r2('<span class="info-lbl">Nominee Registered:' + esc(a.nominee) + '</span>', '');
+      h += '</div>';
+
+      // Search results heading
+      h += '<div class="search-hd">Search results</div>';
+      if (DATA.period && DATA.period.from) {
+        h += '<div class="date-range"><span class="dr-lbl">Date range: </span><span class="dr-val">' + esc(DATA.period.from) + ' - ' + esc(DATA.period.to) + '</span></div>';
+      }
+
+      // Transaction table
+      h += '<table class="txn-tbl">';
+      h += '<thead><tr>';
+      h += '<th class="col-date">Date</th>';
+      h += '<th class="col-desc">Description</th>';
+      h += '<th class="col-amt r">Credit</th>';
+      h += '<th class="col-amt r">Debit</th>';
+      h += '<th class="col-amt r">Balance</th>';
+      h += '</tr></thead><tbody>';
+
+      // Group by date
+      var groups = {}, order = [];
+      txns.forEach(function(t) {
+        var d = t.date || '';
+        if (!groups[d]) { groups[d] = []; order.push(d); }
+        groups[d].push(t);
+      });
+
+      order.forEach(function(date) {
+        var g = groups[date];
+        var lastBal = g[g.length - 1].balance;
+
+        // Summary row (date + closing balance for that date)
+        h += '<tr class="s-row"><td>' + esc(date) + '</td><td></td><td></td><td></td>';
+        h += '<td class="s-bal">' + fmt(lastBal) + '</td></tr>';
+
+        // Detail rows
+        g.forEach(function(t) {
+          h += '<tr class="d-row"><td></td>';
+          h += '<td>' + esc(t.description) + '</td>';
+          h += '<td class="amt">' + (t.credit ? fmt(t.credit) : '') + '</td>';
+          h += '<td class="amt">' + (t.debit ? fmt(t.debit) : '') + '</td>';
+          h += '<td class="amt">' + fmt(t.balance) + '</td>';
+          h += '</tr>';
+        });
+      });
+
+      // Closing balance row
+      if (txns.length > 0) {
+        h += '<tr class="c-row"><td></td><td>Closing balance</td><td></td><td></td>';
+        h += '<td class="c-bal">' + fmt(txns[0].balance) + '</td></tr>';
+      }
+
+      h += '</tbody></table>';
+
+      // Disclaimer
+      h += '<div class="disc">';
+      h += '<p>Any discrepancy in the account details should be notified to the branch within 15 days from the receipt of this statement of account.</p>';
+      h += '<p>HSBC is a member of the Deposit Insurance and Credit Guarantee Corporation (DICGC). The deposits maintained with the bank are insured by the DICGC as per the provisions of the DICGC Act, 1961. For details, please visit the DICGC website: <a href="https://www.dicgc.org.in">https://www.dicgc.org.in</a></p>';
+      h += '</div>';
+
+      document.getElementById('stmt').innerHTML = h;
+    }
+
+    function r2(left, right) {
+      return '<div class="info-row"><div class="info-left">' + left + '</div><div class="info-right">' + right + '</div></div>';
+    }
+
+    render();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1490 @@
+{
+  "page_width": 638,
+  "page_height": 842,
+  "fonts": {
+    "browser_chrome": {
+      "font": "Times-Roman",
+      "size": 8,
+      "color": "#000000"
+    },
+    "title": {
+      "font": "Times-Roman",
+      "size": 12,
+      "color": "#000000"
+    },
+    "account_type": {
+      "font": "Times-Roman",
+      "size": 8,
+      "color": "#000000"
+    },
+    "balance_large": {
+      "font": "Times-Roman",
+      "size": 8,
+      "color": "#000000"
+    },
+    "label": {
+      "font": "Times-Roman",
+      "size": 8,
+      "color": "#000000"
+    },
+    "value": {
+      "font": "Times-Roman",
+      "size": 8,
+      "color": "#000000"
+    },
+    "name": {
+      "font": "Times-Roman",
+      "size": 8,
+      "color": "#000000"
+    },
+    "heading": {
+      "font": "Times-Bold",
+      "size": 9,
+      "color": "#000000"
+    },
+    "table_header": {
+      "font": "Times-Bold",
+      "size": 8,
+      "color": "#000000"
+    },
+    "transaction": {
+      "font": "Times-Roman",
+      "size": 8,
+      "color": "#000000"
+    },
+    "currency": {
+      "font": "Times-Roman",
+      "size": 8,
+      "color": "#000000"
+    },
+    "disclaimer": {
+      "font": "Times-Roman",
+      "size": 7,
+      "color": "#000000"
+    },
+    "link": {
+      "font": "Times-Roman",
+      "size": 7,
+      "color": "#000000"
+    }
+  },
+  "columns": [
+    {
+      "name": "Date",
+      "role": "date",
+      "x": 33.68,
+      "x1": 67.47,
+      "align": "left",
+      "header_x": 39.91,
+      "font": {
+        "font": "Times-Bold",
+        "size": 8,
+        "color": "#000000"
+      }
+    },
+    {
+      "name": "Narration",
+      "role": "description",
+      "x": 72.03,
+      "x1": 254.55,
+      "align": "left",
+      "header_x": 144.18,
+      "font": {
+        "font": "Times-Bold",
+        "size": 8,
+        "color": "#000000"
+      }
+    },
+    {
+      "name": "Chq./Ref.No.",
+      "role": "ref",
+      "x": 288.6,
+      "x1": 356.6,
+      "align": "left",
+      "header_x": 283.52,
+      "font": {
+        "font": "Times-Bold",
+        "size": 8,
+        "color": "#000000"
+      }
+    },
+    {
+      "name": "Value Dt",
+      "role": "value_date",
+      "x": 362.5,
+      "x1": 396.28,
+      "align": "left",
+      "header_x": 361.5,
+      "font": {
+        "font": "Times-Bold",
+        "size": 8,
+        "color": "#000000"
+      }
+    },
+    {
+      "name": "Withdrawal Amt.",
+      "role": "debit",
+      "x": 470.24,
+      "x1": 470.24,
+      "align": "right",
+      "header_x": 405.32,
+      "font": {
+        "font": "Times-Bold",
+        "size": 8,
+        "color": "#000000"
+      }
+    },
+    {
+      "name": "Deposit Amt.",
+      "role": "credit",
+      "x": 548.19,
+      "x1": 548.19,
+      "align": "right",
+      "header_x": 491.05,
+      "font": {
+        "font": "Times-Bold",
+        "size": 8,
+        "color": "#000000"
+      }
+    },
+    {
+      "name": "Closing Balance",
+      "role": "balance",
+      "x": 626.71,
+      "x1": 626.71,
+      "align": "right",
+      "header_x": 564.28,
+      "font": {
+        "font": "Times-Bold",
+        "size": 8,
+        "color": "#000000"
+      }
+    }
+  ],
+  "col_bounds": [
+    27.78,
+    67.47,
+    254.55,
+    356.6,
+    396.28,
+    474.24,
+    552.19,
+    630.71
+  ],
+  "p1_table_header_y": 233.59,
+  "p1_first_content_y": 251.26,
+  "p1_table_top": 228.88,
+  "p1_table_bottom": 763.06,
+  "cont_table_top": 226.88,
+  "cont_table_bottom": 777.85,
+  "cont_header_text_y": null,
+  "cont_first_content_y": 231.65,
+  "summary_row_height": 17.2,
+  "detail_line_spacing": 17.2,
+  "summary_to_detail_gap": 17.2,
+  "detail_to_next_summary": 17.2,
+  "content_bottom": 764.85,
+  "footer_y": 784.85,
+  "grid_colors": {
+    "border": [
+      0.50196,
+      0.50196,
+      0.50196
+    ],
+    "separator": [
+      0.50196,
+      0.50196,
+      0.50196
+    ]
+  },
+  "text_to_border_gap": 4.2,
+  "header_fields": [
+    {
+      "role": "__chrome__",
+      "x": 292.03,
+      "y": 19.15,
+      "font_key": "browser_chrome",
+      "template": "Page No .: {page_num}",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 212.71,
+      "font_key": "title",
+      "template": "Statement of account",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 34.02,
+      "y": 90.82,
+      "font_key": "value",
+      "template": "MR.",
+      "label": ""
+    },
+    {
+      "role": "customer_name",
+      "x": 58.46,
+      "y": 90.82,
+      "font_key": "value",
+      "template": "{customer_name}",
+      "label": "Customer Name"
+    },
+    {
+      "role": "address_line_1",
+      "x": 34.02,
+      "y": 102.45,
+      "font_key": "value",
+      "template": "{address_line_1}",
+      "label": "Address Line 1"
+    },
+    {
+      "role": "address_line_2",
+      "x": 34.02,
+      "y": 114.09,
+      "font_key": "value",
+      "template": "{address_line_2}",
+      "label": "Address Line 2"
+    },
+    {
+      "role": "city_state",
+      "x": 34.02,
+      "y": 125.72,
+      "font_key": "value",
+      "template": "{city_state}",
+      "label": "City State"
+    },
+    {
+      "role": "pin",
+      "x": 34.02,
+      "y": 137.35,
+      "font_key": "value",
+      "template": "{pin}",
+      "label": "Pin"
+    },
+    {
+      "role": "__static__",
+      "x": 34.02,
+      "y": 148.99,
+      "font_key": "value",
+      "template": "KARNATAKA INDIA",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 34.02,
+      "y": 166.29,
+      "font_key": "value",
+      "template": "JOINT HOLDERS :",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 34.02,
+      "y": 192.87,
+      "font_key": "value",
+      "template": "Nomination :",
+      "label": ""
+    },
+    {
+      "role": "nominee",
+      "x": 80.46,
+      "y": 192.87,
+      "font_key": "value",
+      "template": "{nominee}",
+      "label": "Nominee"
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 52.5,
+      "font_key": "label",
+      "template": "Account Branch",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 52.5,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "branch",
+      "x": 402.52,
+      "y": 52.5,
+      "font_key": "value",
+      "template": "{branch}",
+      "label": "Branch"
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 61.2,
+      "font_key": "label",
+      "template": "Address",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 61.2,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 402.52,
+      "y": 61.2,
+      "font_key": "value",
+      "template": "WARD NO.151, 80 FEET ROAD,4TH BLOCK",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 402.52,
+      "y": 69.9,
+      "font_key": "value",
+      "template": "KORAMANGALA, BANGALORE 560034",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 402.52,
+      "y": 78.6,
+      "font_key": "value",
+      "template": "LANDMARK NEXT TO STARBUCKS CAFE",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 87.3,
+      "font_key": "label",
+      "template": "City",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 87.3,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 402.52,
+      "y": 87.3,
+      "font_key": "value",
+      "template": "BENGALURU 560034",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 96,
+      "font_key": "label",
+      "template": "State",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 96,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 402.52,
+      "y": 96,
+      "font_key": "value",
+      "template": "KARNATAKA",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 104.7,
+      "font_key": "label",
+      "template": "Phone no.",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 104.7,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 402.52,
+      "y": 104.7,
+      "font_key": "value",
+      "template": "18002600/18001600",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 113.4,
+      "font_key": "label",
+      "template": "OD Limit",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 113.4,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "overdraft",
+      "x": 402.52,
+      "y": 113.4,
+      "font_key": "value",
+      "template": "{overdraft}",
+      "label": "OD Limit"
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 122.1,
+      "font_key": "label",
+      "template": "Currency",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 122.1,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "currency_label",
+      "x": 402.52,
+      "y": 122.1,
+      "font_key": "value",
+      "template": "{currency}",
+      "label": "Currency"
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 130.8,
+      "font_key": "label",
+      "template": "Email",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 130.8,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 402.52,
+      "y": 130.8,
+      "font_key": "value",
+      "template": "kanalahvr@gmail.com",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 139.5,
+      "font_key": "label",
+      "template": "Cust ID",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 139.5,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 402.52,
+      "y": 139.5,
+      "font_key": "value",
+      "template": "178714441",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 148.2,
+      "font_key": "label",
+      "template": "Account No",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 148.2,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "account_number",
+      "x": 402.52,
+      "y": 148.2,
+      "font_key": "value",
+      "template": "{account_number}",
+      "label": "Account Number"
+    },
+    {
+      "role": "__static__",
+      "x": 464.52,
+      "y": 148.2,
+      "font_key": "value",
+      "template": "VIRTUAL IMPERIA",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 156.9,
+      "font_key": "label",
+      "template": "A/C Open Date",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 156.9,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 402.52,
+      "y": 156.9,
+      "font_key": "value",
+      "template": "08/10/2021",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 165.6,
+      "font_key": "label",
+      "template": "Account Status",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 165.6,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 402.52,
+      "y": 165.6,
+      "font_key": "value",
+      "template": "Regular",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 174.72,
+      "font_key": "label",
+      "template": "RTGS/NEFT IFSC",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 174.3,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "ifsc",
+      "x": 402.52,
+      "y": 174.3,
+      "font_key": "value",
+      "template": "{ifsc}",
+      "label": "IFSC"
+    },
+    {
+      "role": "__static__",
+      "x": 475.85,
+      "y": 174.3,
+      "font_key": "value",
+      "template": "MICR :",
+      "label": ""
+    },
+    {
+      "role": "micr",
+      "x": 498.85,
+      "y": 174.3,
+      "font_key": "value",
+      "template": "{micr}",
+      "label": "MICR"
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 183.07,
+      "font_key": "label",
+      "template": "Branch Code",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 183.07,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 402.52,
+      "y": 183.07,
+      "font_key": "value",
+      "template": "2777",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 340.16,
+      "y": 191.77,
+      "font_key": "label",
+      "template": "Account Type",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 396.85,
+      "y": 191.77,
+      "font_key": "label",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "account_type",
+      "x": 402.52,
+      "y": 191.77,
+      "font_key": "value",
+      "template": "{account_type}",
+      "label": "Account Type"
+    },
+    {
+      "role": "__static__",
+      "x": 34.02,
+      "y": 215.54,
+      "font_key": "value",
+      "template": "From",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 55.35,
+      "y": 215.54,
+      "font_key": "value",
+      "template": ":",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 154.02,
+      "y": 215.54,
+      "font_key": "value",
+      "template": "To",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 166.91,
+      "y": 215.54,
+      "font_key": "value",
+      "template": ":",
+      "label": ""
+    }
+  ],
+  "cont_header_fields": [],
+  "browser_chrome": {
+    "url_text": "",
+    "title_text": "",
+    "top_y": 19.15,
+    "bottom_y": null,
+    "page_num_x": 292.03
+  },
+  "has_footer": true,
+  "footer_gap": 21.79,
+  "footer_fields": [
+    {
+      "role": "__static__",
+      "x": 28.35,
+      "y": 784.85,
+      "font_key": "heading",
+      "template": "HDFC BANK LIMITED",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 28.35,
+      "y": 794.94,
+      "font_key": "value",
+      "template": "*Closing balance includes funds earmarked for hold and uncleared funds",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 28.35,
+      "y": 804.24,
+      "font_key": "disclaimer",
+      "template": "Contents of this statement will be considered correct if no error is reported within 30 days of receipt of statement.The address on this statement is that on record with the Bank as at the day of requesting",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 28.35,
+      "y": 811.54,
+      "font_key": "disclaimer",
+      "template": "this statement.",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 28.35,
+      "y": 818.79,
+      "font_key": "disclaimer",
+      "template": "State account branch GSTN:29AAACH2702H1ZW",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 28.35,
+      "y": 826,
+      "font_key": "disclaimer",
+      "template": "HDFC Bank GSTIN number details are available at https://www.hdfcbank.com/personal/making-payments/online-tax-payment/goods-and-service-tax.",
+      "label": ""
+    },
+    {
+      "role": "__static__",
+      "x": 28.35,
+      "y": 833.3,
+      "font_key": "disclaimer",
+      "template": "Registered Office Address: HDFC Bank House,Senapati Bapat Marg,Lower Parel,Mumbai 400013",
+      "label": ""
+    }
+  ],
+  "detail_border_segments": [
+    [
+      27.78,
+      630.71
+    ]
+  ],
+  "closing_col_segments": [
+    28.35,
+    630.71
+  ],
+  "customer_info_box": {
+    "x0": 27.21,
+    "y0": 81.18,
+    "x1": 312.94,
+    "y1": 191.16,
+    "border_width": 1.14,
+    "fill_color": [
+      0,
+      0,
+      0
+    ]
+  },
+  "branch_info_box": {
+    "x0": 338.74,
+    "y0": 51.13,
+    "x1": 625.04,
+    "y1": 201.94,
+    "border_width": 1.42,
+    "fill_color": [
+      1,
+      1,
+      1
+    ]
+  },
+  "header_row_rects_pattern": [
+    {
+      "x0": 28.35,
+      "x1": 630.71,
+      "y_offset": 0,
+      "height": 0.57,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": false,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 27.78,
+      "x1": 28.35,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 67.47,
+      "x1": 68.03,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 254.55,
+      "x1": 255.12,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 356.6,
+      "x1": 357.16,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 396.28,
+      "x1": 396.85,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 474.24,
+      "x1": 474.8,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 552.19,
+      "x1": 552.75,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 630.71,
+      "x1": 631.27,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 28.35,
+      "x1": 67.47,
+      "y_offset_from_bottom": 0,
+      "height": 0.56,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": false,
+      "at_row_bottom": true
+    },
+    {
+      "x0": 68.03,
+      "x1": 254.55,
+      "y_offset_from_bottom": 0,
+      "height": 0.56,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": false,
+      "at_row_bottom": true
+    },
+    {
+      "x0": 255.12,
+      "x1": 356.6,
+      "y_offset_from_bottom": 0,
+      "height": 0.56,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": false,
+      "at_row_bottom": true
+    },
+    {
+      "x0": 357.16,
+      "x1": 396.28,
+      "y_offset_from_bottom": 0,
+      "height": 0.56,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": false,
+      "at_row_bottom": true
+    },
+    {
+      "x0": 396.85,
+      "x1": 474.24,
+      "y_offset_from_bottom": 0,
+      "height": 0.56,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": false,
+      "at_row_bottom": true
+    },
+    {
+      "x0": 474.8,
+      "x1": 552.19,
+      "y_offset_from_bottom": 0,
+      "height": 0.56,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": false,
+      "at_row_bottom": true
+    },
+    {
+      "x0": 552.75,
+      "x1": 630.71,
+      "y_offset_from_bottom": 0,
+      "height": 0.56,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": false,
+      "at_row_bottom": true
+    }
+  ],
+  "summary_row_rects_pattern": [
+    {
+      "x0": 27.78,
+      "x1": 28.35,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 67.47,
+      "x1": 68.03,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 254.55,
+      "x1": 255.12,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 356.6,
+      "x1": 357.16,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 396.28,
+      "x1": 396.85,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 474.24,
+      "x1": 474.8,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 552.19,
+      "x1": 552.75,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 630.71,
+      "x1": 631.27,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    }
+  ],
+  "detail_row_rects_pattern": [
+    {
+      "x0": 27.78,
+      "x1": 28.35,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 67.47,
+      "x1": 68.03,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 254.55,
+      "x1": 255.12,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 356.6,
+      "x1": 357.16,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 396.28,
+      "x1": 396.85,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 474.24,
+      "x1": 474.8,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 552.19,
+      "x1": 552.75,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    },
+    {
+      "x0": 630.71,
+      "x1": 631.27,
+      "y_offset": 0,
+      "height": 0,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "stroke_color": [
+        0,
+        0,
+        0
+      ],
+      "width": 0,
+      "use_row_height": true,
+      "at_row_bottom": false
+    }
+  ],
+  "table_outer_border": {
+    "top": {
+      "x0": 28.35,
+      "x1": 630.71,
+      "height": 0.57,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ]
+    },
+    "bottom": {
+      "x0": 28.35,
+      "x1": 630.71,
+      "height": 0.57,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ]
+    },
+    "left": {
+      "x0": 27.78,
+      "x1": 28.35,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ]
+    },
+    "right": {
+      "x0": 630.71,
+      "x1": 631.27,
+      "fill_color": [
+        0.50196,
+        0.50196,
+        0.50196
+      ]
+    }
+  },
+  "summary_row_rect_height": 34.4,
+  "detail_row_rect_height": 17.2,
+  "header_row_rect_height": 17.61
+}

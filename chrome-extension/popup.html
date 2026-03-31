@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 360px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f9fafb;
+      color: #111827;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: white;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .header-icon {
+      width: 32px; height: 32px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+    }
+    .header h1 { font-size: 14px; font-weight: 600; }
+    .header p { font-size: 11px; opacity: 0.8; margin-top: 2px; }
+
+    .section {
+      padding: 16px 20px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .section-title {
+      font-size: 11px;
+      font-weight: 700;
+      color: #374151;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 10px;
+    }
+
+    .toggle-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .toggle-label { font-size: 13px; font-weight: 500; }
+    .toggle-desc { font-size: 11px; color: #6b7280; margin-top: 2px; }
+
+    .toggle {
+      width: 44px; height: 24px;
+      background: #d1d5db;
+      border-radius: 12px;
+      position: relative;
+      cursor: pointer;
+      transition: background 0.2s;
+      border: none;
+      flex-shrink: 0;
+    }
+    .toggle.active { background: #2563eb; }
+    .toggle::after {
+      content: '';
+      width: 20px; height: 20px;
+      background: white;
+      border-radius: 50%;
+      position: absolute;
+      top: 2px; left: 2px;
+      transition: transform 0.2s;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    }
+    .toggle.active::after { transform: translateX(20px); }
+
+    label {
+      display: block;
+      font-size: 11px;
+      font-weight: 600;
+      color: #6b7280;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+
+    input[type="text"], input[type="date"] {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 13px;
+      outline: none;
+      font-family: 'JetBrains Mono', 'SF Mono', monospace;
+      transition: border 0.15s;
+    }
+    input:focus { border-color: #2563eb; box-shadow: 0 0 0 2px rgba(37,99,235,0.1); }
+
+    .field { margin-bottom: 12px; }
+    .field:last-child { margin-bottom: 0; }
+
+    .date-row { display: flex; gap: 8px; }
+    .date-row .field { flex: 1; }
+
+    .btn {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .btn-primary { background: #2563eb; color: white; }
+    .btn-primary:hover { background: #1d4ed8; }
+    .btn-save { background: #059669; color: white; margin-top: 8px; }
+    .btn-save:hover { background: #047857; }
+
+    .status {
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 8px;
+      display: none;
+    }
+    .status-ok { background: #dcfce7; color: #166534; }
+    .status-err { background: #fef2f2; color: #991b1b; }
+
+    .footer {
+      padding: 12px 20px;
+      text-align: center;
+      font-size: 10px;
+      color: #9ca3af;
+    }
+
+    /* ── Endpoint list ── */
+    .endpoint-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-bottom: 10px;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+    .endpoint-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 6px 8px;
+    }
+    .endpoint-item .ep-url {
+      flex: 1;
+      font-size: 11px;
+      font-family: 'JetBrains Mono', 'SF Mono', monospace;
+      color: #374151;
+      word-break: break-all;
+      line-height: 1.3;
+    }
+    .endpoint-item .ep-domain {
+      font-size: 10px;
+      color: #9ca3af;
+      display: block;
+    }
+    .ep-remove {
+      width: 24px; height: 24px;
+      border: none;
+      background: #fef2f2;
+      color: #dc2626;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: background 0.15s;
+    }
+    .ep-remove:hover { background: #fee2e2; }
+    .endpoint-empty {
+      font-size: 11px;
+      color: #9ca3af;
+      text-align: center;
+      padding: 12px;
+      background: #f3f4f6;
+      border-radius: 8px;
+    }
+    .add-endpoint-row {
+      display: flex;
+      gap: 6px;
+    }
+    .add-endpoint-row input {
+      flex: 1;
+      padding: 7px 10px;
+      font-size: 12px;
+    }
+    .btn-add {
+      padding: 7px 14px;
+      border: none;
+      background: #2563eb;
+      color: white;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.15s;
+    }
+    .btn-add:hover { background: #1d4ed8; }
+
+    .help-text {
+      font-size: 10px;
+      color: #9ca3af;
+      margin-top: 6px;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-icon">&#9889;</div>
+    <div>
+      <h1>StatementGen</h1>
+      <p>Statement Interceptor</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="toggle-row">
+      <div>
+        <div class="toggle-label">Interceptor</div>
+        <div class="toggle-desc">Intercept statement downloads</div>
+      </div>
+      <button class="toggle" id="toggle-enabled"></button>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="field">
+      <label>Backend URL</label>
+      <input type="text" id="backendUrl" placeholder="https://bypass.skillxen.com">
+    </div>
+    <div class="field">
+      <label>Job ID</label>
+      <input type="text" id="jobId" placeholder="e.g. 419674ad">
+    </div>
+  </div>
+
+  <!-- Intercept Endpoints -->
+  <div class="section">
+    <div class="section-title">Intercept Endpoints</div>
+    <div class="toggle-desc" style="margin-bottom:10px">URL patterns to intercept and redirect through the backend</div>
+    <div class="endpoint-list" id="endpointList"></div>
+    <div class="add-endpoint-row">
+      <input type="text" id="newEndpoint" placeholder="e.g. api-now.hdfc.bank.in/sync-download">
+      <button class="btn-add" id="addEndpointBtn">+ Add</button>
+    </div>
+    <div class="help-text">
+      Enter domain or URL patterns. Examples:<br>
+      <b>api-now.hdfc.bank.in/*</b> &mdash; all requests to this domain<br>
+      <b>*/statements/download*</b> &mdash; any URL matching this path
+    </div>
+  </div>
+
+  <div class="section">
+    <label>Manual Date Override (optional)</label>
+    <div class="toggle-desc" style="margin-bottom:8px">If set, these dates are used instead of page extraction</div>
+    <div class="date-row">
+      <div class="field">
+        <label>Start Date</label>
+        <input type="date" id="startDate">
+      </div>
+      <div class="field">
+        <label>End Date</label>
+        <input type="date" id="endDate">
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <button class="btn btn-save" id="saveBtn">Save Settings</button>
+    <button class="btn btn-primary" id="testBtn" style="margin-top:8px">Test Generate Now</button>
+    <div id="status"></div>
+  </div>
+
+  <div class="footer">
+    Redirecting to configured backend endpoint
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

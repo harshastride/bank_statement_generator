@@ -1,0 +1,7350 @@
+{
+  "source_pdf": "/Users/kanalaharshareddy/Library/CloudStorage/OneDrive-Personal/Applications/BankStatementGenerator_V2/data/_bank_setup/source.pdf",
+  "profile": {
+    "page_width": 638,
+    "page_height": 842,
+    "fonts": {
+      "browser_chrome": {
+        "font": "Times-Roman",
+        "size": 8,
+        "color": "#000000"
+      },
+      "title": {
+        "font": "Times-Roman",
+        "size": 12,
+        "color": "#000000"
+      },
+      "account_type": {
+        "font": "Times-Roman",
+        "size": 8,
+        "color": "#000000"
+      },
+      "balance_large": {
+        "font": "Times-Roman",
+        "size": 8,
+        "color": "#000000"
+      },
+      "label": {
+        "font": "Times-Roman",
+        "size": 8,
+        "color": "#000000"
+      },
+      "value": {
+        "font": "Times-Roman",
+        "size": 8,
+        "color": "#000000"
+      },
+      "name": {
+        "font": "Times-Roman",
+        "size": 8,
+        "color": "#000000"
+      },
+      "heading": {
+        "font": "Times-Bold",
+        "size": 9,
+        "color": "#000000"
+      },
+      "table_header": {
+        "font": "Times-Bold",
+        "size": 8,
+        "color": "#000000"
+      },
+      "transaction": {
+        "font": "Times-Roman",
+        "size": 8,
+        "color": "#000000"
+      },
+      "currency": {
+        "font": "Times-Roman",
+        "size": 8,
+        "color": "#000000"
+      },
+      "disclaimer": {
+        "font": "Times-Roman",
+        "size": 7,
+        "color": "#000000"
+      },
+      "link": {
+        "font": "Times-Roman",
+        "size": 7,
+        "color": "#000000"
+      }
+    },
+    "columns": [
+      {
+        "name": "Date",
+        "role": "date",
+        "x": 33.68,
+        "x1": 67.47,
+        "align": "left",
+        "header_x": 39.91,
+        "font": {
+          "font": "Times-Bold",
+          "size": 8,
+          "color": "#000000"
+        }
+      },
+      {
+        "name": "Narration",
+        "role": "description",
+        "x": 72.03,
+        "x1": 254.55,
+        "align": "left",
+        "header_x": 144.18,
+        "font": {
+          "font": "Times-Bold",
+          "size": 8,
+          "color": "#000000"
+        }
+      },
+      {
+        "name": "Chq./Ref.No.",
+        "role": "ref",
+        "x": 288.6,
+        "x1": 356.6,
+        "align": "left",
+        "header_x": 283.52,
+        "font": {
+          "font": "Times-Bold",
+          "size": 8,
+          "color": "#000000"
+        }
+      },
+      {
+        "name": "Value Dt",
+        "role": "value_date",
+        "x": 362.5,
+        "x1": 396.28,
+        "align": "left",
+        "header_x": 361.5,
+        "font": {
+          "font": "Times-Bold",
+          "size": 8,
+          "color": "#000000"
+        }
+      },
+      {
+        "name": "Withdrawal Amt.",
+        "role": "debit",
+        "x": 470.24,
+        "x1": 470.24,
+        "align": "right",
+        "header_x": 405.32,
+        "font": {
+          "font": "Times-Bold",
+          "size": 8,
+          "color": "#000000"
+        }
+      },
+      {
+        "name": "Deposit Amt.",
+        "role": "credit",
+        "x": 548.19,
+        "x1": 548.19,
+        "align": "right",
+        "header_x": 491.05,
+        "font": {
+          "font": "Times-Bold",
+          "size": 8,
+          "color": "#000000"
+        }
+      },
+      {
+        "name": "Closing Balance",
+        "role": "balance",
+        "x": 626.71,
+        "x1": 626.71,
+        "align": "right",
+        "header_x": 564.28,
+        "font": {
+          "font": "Times-Bold",
+          "size": 8,
+          "color": "#000000"
+        }
+      }
+    ],
+    "col_bounds": [
+      27.78,
+      67.47,
+      254.55,
+      356.6,
+      396.28,
+      474.24,
+      552.19,
+      630.71
+    ],
+    "p1_table_header_y": 233.59,
+    "p1_first_content_y": 251.26,
+    "p1_table_top": 228.88,
+    "p1_table_bottom": 763.06,
+    "cont_table_top": 226.88,
+    "cont_table_bottom": 777.85,
+    "cont_header_text_y": null,
+    "cont_first_content_y": 231.65,
+    "summary_row_height": 17.2,
+    "detail_line_spacing": 17.2,
+    "summary_to_detail_gap": 17.2,
+    "detail_to_next_summary": 17.2,
+    "content_bottom": 764.85,
+    "footer_y": 784.85,
+    "grid_colors": {
+      "border": [
+        0.50196,
+        0.50196,
+        0.50196
+      ],
+      "separator": [
+        0.50196,
+        0.50196,
+        0.50196
+      ]
+    },
+    "text_to_border_gap": 4.2,
+    "header_fields": [
+      {
+        "role": "__chrome__",
+        "x": 292.03,
+        "y": 19.15,
+        "font_key": "browser_chrome",
+        "template": "Page No .: {page_num}",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 212.71,
+        "font_key": "title",
+        "template": "Statement of account",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 34.02,
+        "y": 90.82,
+        "font_key": "value",
+        "template": "MR.",
+        "label": ""
+      },
+      {
+        "role": "customer_name",
+        "x": 58.46,
+        "y": 90.82,
+        "font_key": "value",
+        "template": "{customer_name}",
+        "label": "Customer Name"
+      },
+      {
+        "role": "address_line_1",
+        "x": 34.02,
+        "y": 102.45,
+        "font_key": "value",
+        "template": "{address_line_1}",
+        "label": "Address Line 1"
+      },
+      {
+        "role": "address_line_2",
+        "x": 34.02,
+        "y": 114.09,
+        "font_key": "value",
+        "template": "{address_line_2}",
+        "label": "Address Line 2"
+      },
+      {
+        "role": "city_state",
+        "x": 34.02,
+        "y": 125.72,
+        "font_key": "value",
+        "template": "{city_state}",
+        "label": "City State"
+      },
+      {
+        "role": "pin",
+        "x": 34.02,
+        "y": 137.35,
+        "font_key": "value",
+        "template": "{pin}",
+        "label": "Pin"
+      },
+      {
+        "role": "__static__",
+        "x": 34.02,
+        "y": 148.99,
+        "font_key": "value",
+        "template": "KARNATAKA INDIA",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 34.02,
+        "y": 166.29,
+        "font_key": "value",
+        "template": "JOINT HOLDERS :",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 34.02,
+        "y": 192.87,
+        "font_key": "value",
+        "template": "Nomination :",
+        "label": ""
+      },
+      {
+        "role": "nominee",
+        "x": 80.46,
+        "y": 192.87,
+        "font_key": "value",
+        "template": "{nominee}",
+        "label": "Nominee"
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 52.5,
+        "font_key": "label",
+        "template": "Account Branch",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 52.5,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "branch",
+        "x": 402.52,
+        "y": 52.5,
+        "font_key": "value",
+        "template": "{branch}",
+        "label": "Branch"
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 61.2,
+        "font_key": "label",
+        "template": "Address",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 61.2,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 402.52,
+        "y": 61.2,
+        "font_key": "value",
+        "template": "WARD NO.151, 80 FEET ROAD,4TH BLOCK",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 402.52,
+        "y": 69.9,
+        "font_key": "value",
+        "template": "KORAMANGALA, BANGALORE 560034",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 402.52,
+        "y": 78.6,
+        "font_key": "value",
+        "template": "LANDMARK NEXT TO STARBUCKS CAFE",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 87.3,
+        "font_key": "label",
+        "template": "City",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 87.3,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 402.52,
+        "y": 87.3,
+        "font_key": "value",
+        "template": "BENGALURU 560034",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 96,
+        "font_key": "label",
+        "template": "State",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 96,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 402.52,
+        "y": 96,
+        "font_key": "value",
+        "template": "KARNATAKA",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 104.7,
+        "font_key": "label",
+        "template": "Phone no.",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 104.7,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 402.52,
+        "y": 104.7,
+        "font_key": "value",
+        "template": "18002600/18001600",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 113.4,
+        "font_key": "label",
+        "template": "OD Limit",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 113.4,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "overdraft",
+        "x": 402.52,
+        "y": 113.4,
+        "font_key": "value",
+        "template": "{overdraft}",
+        "label": "OD Limit"
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 122.1,
+        "font_key": "label",
+        "template": "Currency",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 122.1,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "currency_label",
+        "x": 402.52,
+        "y": 122.1,
+        "font_key": "value",
+        "template": "{currency}",
+        "label": "Currency"
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 130.8,
+        "font_key": "label",
+        "template": "Email",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 130.8,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 402.52,
+        "y": 130.8,
+        "font_key": "value",
+        "template": "kanalahvr@gmail.com",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 139.5,
+        "font_key": "label",
+        "template": "Cust ID",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 139.5,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 402.52,
+        "y": 139.5,
+        "font_key": "value",
+        "template": "178714441",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 148.2,
+        "font_key": "label",
+        "template": "Account No",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 148.2,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "account_number",
+        "x": 402.52,
+        "y": 148.2,
+        "font_key": "value",
+        "template": "{account_number}",
+        "label": "Account Number"
+      },
+      {
+        "role": "__static__",
+        "x": 464.52,
+        "y": 148.2,
+        "font_key": "value",
+        "template": "VIRTUAL IMPERIA",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 156.9,
+        "font_key": "label",
+        "template": "A/C Open Date",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 156.9,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 402.52,
+        "y": 156.9,
+        "font_key": "value",
+        "template": "08/10/2021",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 165.6,
+        "font_key": "label",
+        "template": "Account Status",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 165.6,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 402.52,
+        "y": 165.6,
+        "font_key": "value",
+        "template": "Regular",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 174.72,
+        "font_key": "label",
+        "template": "RTGS/NEFT IFSC",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 174.3,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "ifsc",
+        "x": 402.52,
+        "y": 174.3,
+        "font_key": "value",
+        "template": "{ifsc}",
+        "label": "IFSC"
+      },
+      {
+        "role": "__static__",
+        "x": 475.85,
+        "y": 174.3,
+        "font_key": "value",
+        "template": "MICR :",
+        "label": ""
+      },
+      {
+        "role": "micr",
+        "x": 498.85,
+        "y": 174.3,
+        "font_key": "value",
+        "template": "{micr}",
+        "label": "MICR"
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 183.07,
+        "font_key": "label",
+        "template": "Branch Code",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 183.07,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 402.52,
+        "y": 183.07,
+        "font_key": "value",
+        "template": "2777",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 340.16,
+        "y": 191.77,
+        "font_key": "label",
+        "template": "Account Type",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 396.85,
+        "y": 191.77,
+        "font_key": "label",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "account_type",
+        "x": 402.52,
+        "y": 191.77,
+        "font_key": "value",
+        "template": "{account_type}",
+        "label": "Account Type"
+      },
+      {
+        "role": "__static__",
+        "x": 34.02,
+        "y": 215.54,
+        "font_key": "value",
+        "template": "From",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 55.35,
+        "y": 215.54,
+        "font_key": "value",
+        "template": ":",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 154.02,
+        "y": 215.54,
+        "font_key": "value",
+        "template": "To",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 166.91,
+        "y": 215.54,
+        "font_key": "value",
+        "template": ":",
+        "label": ""
+      }
+    ],
+    "cont_header_fields": [],
+    "browser_chrome": {
+      "url_text": "",
+      "title_text": "",
+      "top_y": 19.15,
+      "bottom_y": null,
+      "page_num_x": 292.03
+    },
+    "has_footer": true,
+    "footer_gap": 21.79,
+    "footer_fields": [
+      {
+        "role": "__static__",
+        "x": 28.35,
+        "y": 784.85,
+        "font_key": "heading",
+        "template": "HDFC BANK LIMITED",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 28.35,
+        "y": 794.94,
+        "font_key": "value",
+        "template": "*Closing balance includes funds earmarked for hold and uncleared funds",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 28.35,
+        "y": 804.24,
+        "font_key": "disclaimer",
+        "template": "Contents of this statement will be considered correct if no error is reported within 30 days of receipt of statement.The address on this statement is that on record with the Bank as at the day of requesting",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 28.35,
+        "y": 811.54,
+        "font_key": "disclaimer",
+        "template": "this statement.",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 28.35,
+        "y": 818.79,
+        "font_key": "disclaimer",
+        "template": "State account branch GSTN:29AAACH2702H1ZW",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 28.35,
+        "y": 826,
+        "font_key": "disclaimer",
+        "template": "HDFC Bank GSTIN number details are available at https://www.hdfcbank.com/personal/making-payments/online-tax-payment/goods-and-service-tax.",
+        "label": ""
+      },
+      {
+        "role": "__static__",
+        "x": 28.35,
+        "y": 833.3,
+        "font_key": "disclaimer",
+        "template": "Registered Office Address: HDFC Bank House,Senapati Bapat Marg,Lower Parel,Mumbai 400013",
+        "label": ""
+      }
+    ],
+    "detail_border_segments": [
+      [
+        27.78,
+        630.71
+      ]
+    ],
+    "closing_col_segments": [
+      28.35,
+      630.71
+    ],
+    "customer_info_box": {
+      "x0": 27.21,
+      "y0": 81.18,
+      "x1": 312.94,
+      "y1": 191.16,
+      "border_width": 1.14,
+      "fill_color": [
+        0,
+        0,
+        0
+      ]
+    },
+    "branch_info_box": {
+      "x0": 338.74,
+      "y0": 51.13,
+      "x1": 625.04,
+      "y1": 201.94,
+      "border_width": 1.42,
+      "fill_color": [
+        1,
+        1,
+        1
+      ]
+    },
+    "header_row_rects_pattern": [
+      {
+        "x0": 28.35,
+        "x1": 630.71,
+        "y_offset": 0,
+        "height": 0.57,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": false,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 27.78,
+        "x1": 28.35,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 67.47,
+        "x1": 68.03,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 254.55,
+        "x1": 255.12,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 356.6,
+        "x1": 357.16,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 396.28,
+        "x1": 396.85,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 474.24,
+        "x1": 474.8,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 552.19,
+        "x1": 552.75,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 630.71,
+        "x1": 631.27,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 28.35,
+        "x1": 67.47,
+        "y_offset_from_bottom": 0,
+        "height": 0.56,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": false,
+        "at_row_bottom": true
+      },
+      {
+        "x0": 68.03,
+        "x1": 254.55,
+        "y_offset_from_bottom": 0,
+        "height": 0.56,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": false,
+        "at_row_bottom": true
+      },
+      {
+        "x0": 255.12,
+        "x1": 356.6,
+        "y_offset_from_bottom": 0,
+        "height": 0.56,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": false,
+        "at_row_bottom": true
+      },
+      {
+        "x0": 357.16,
+        "x1": 396.28,
+        "y_offset_from_bottom": 0,
+        "height": 0.56,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": false,
+        "at_row_bottom": true
+      },
+      {
+        "x0": 396.85,
+        "x1": 474.24,
+        "y_offset_from_bottom": 0,
+        "height": 0.56,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": false,
+        "at_row_bottom": true
+      },
+      {
+        "x0": 474.8,
+        "x1": 552.19,
+        "y_offset_from_bottom": 0,
+        "height": 0.56,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": false,
+        "at_row_bottom": true
+      },
+      {
+        "x0": 552.75,
+        "x1": 630.71,
+        "y_offset_from_bottom": 0,
+        "height": 0.56,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": false,
+        "at_row_bottom": true
+      }
+    ],
+    "summary_row_rects_pattern": [
+      {
+        "x0": 27.78,
+        "x1": 28.35,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 67.47,
+        "x1": 68.03,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 254.55,
+        "x1": 255.12,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 356.6,
+        "x1": 357.16,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 396.28,
+        "x1": 396.85,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 474.24,
+        "x1": 474.8,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 552.19,
+        "x1": 552.75,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 630.71,
+        "x1": 631.27,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      }
+    ],
+    "detail_row_rects_pattern": [
+      {
+        "x0": 27.78,
+        "x1": 28.35,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 67.47,
+        "x1": 68.03,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 254.55,
+        "x1": 255.12,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 356.6,
+        "x1": 357.16,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 396.28,
+        "x1": 396.85,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 474.24,
+        "x1": 474.8,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 552.19,
+        "x1": 552.75,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      },
+      {
+        "x0": 630.71,
+        "x1": 631.27,
+        "y_offset": 0,
+        "height": 0,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ],
+        "stroke_color": [
+          0,
+          0,
+          0
+        ],
+        "width": 0,
+        "use_row_height": true,
+        "at_row_bottom": false
+      }
+    ],
+    "table_outer_border": {
+      "top": {
+        "x0": 28.35,
+        "x1": 630.71,
+        "height": 0.57,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ]
+      },
+      "bottom": {
+        "x0": 28.35,
+        "x1": 630.71,
+        "height": 0.57,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ]
+      },
+      "left": {
+        "x0": 27.78,
+        "x1": 28.35,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ]
+      },
+      "right": {
+        "x0": 630.71,
+        "x1": 631.27,
+        "fill_color": [
+          0.50196,
+          0.50196,
+          0.50196
+        ]
+      }
+    },
+    "summary_row_rect_height": 34.4,
+    "detail_row_rect_height": 17.2,
+    "header_row_rect_height": 17.61
+  },
+  "page_width": 638,
+  "page_height": 842,
+  "image_dir": "/Users/kanalaharshareddy/Library/CloudStorage/OneDrive-Personal/Applications/BankStatementGenerator_V2/banks/hdfc_bank/template_images",
+  "page1": {
+    "page": 1,
+    "width": 638,
+    "height": 842,
+    "text_blocks": [
+      {
+        "text": "Date",
+        "x": 39.91,
+        "y": 233.59,
+        "x1": 55.9,
+        "y1": 241.59,
+        "font": "Times-Bold",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Narration",
+        "x": 144.18,
+        "y": 233.59,
+        "x1": 178.4,
+        "y1": 241.59,
+        "font": "Times-Bold",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Chq./Ref.No.",
+        "x": 283.52,
+        "y": 233.59,
+        "x1": 328.19,
+        "y1": 241.59,
+        "font": "Times-Bold",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "ValueDt",
+        "x": 361.5,
+        "y": 233.59,
+        "x1": 391.94,
+        "y1": 241.59,
+        "font": "Times-Bold",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "WithdrawalAmt.",
+        "x": 405.32,
+        "y": 233.59,
+        "x1": 465.76,
+        "y1": 241.59,
+        "font": "Times-Bold",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "DepositAmt.",
+        "x": 491.05,
+        "y": 233.59,
+        "x1": 535.93,
+        "y1": 241.59,
+        "font": "Times-Bold",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "ClosingBalance",
+        "x": 564.28,
+        "y": 233.59,
+        "x1": 619.18,
+        "y1": 241.59,
+        "font": "Times-Bold",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "PageNo.:1",
+        "x": 292.03,
+        "y": 19.15,
+        "x1": 331.59,
+        "y1": 27.15,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "MR.",
+        "x": 34.02,
+        "y": 90.82,
+        "x1": 48.46,
+        "y1": 98.82,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KANALAHARSHAVARDHANREDDY",
+        "x": 58.46,
+        "y": 90.82,
+        "x1": 196.66,
+        "y1": 98.82,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "11THFLOOR,BB11404GODREJ,24SY",
+        "x": 34.02,
+        "y": 102.45,
+        "x1": 174.46,
+        "y1": 110.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "NO118AND139ANEKAL,SARJAPURA",
+        "x": 34.02,
+        "y": 114.09,
+        "x1": 177.56,
+        "y1": 122.09,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "HOBLICHAMBENAHALLI",
+        "x": 34.02,
+        "y": 125.72,
+        "x1": 130.22,
+        "y1": 133.72,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "BENGALURU562125",
+        "x": 34.02,
+        "y": 137.35,
+        "x1": 109.34,
+        "y1": 145.35,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KARNATAKAINDIA",
+        "x": 34.02,
+        "y": 148.99,
+        "x1": 109.33,
+        "y1": 156.99,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "JOINTHOLDERS:",
+        "x": 34.02,
+        "y": 166.29,
+        "x1": 99.34,
+        "y1": 174.29,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Nomination:",
+        "x": 34.02,
+        "y": 192.87,
+        "x1": 76.46,
+        "y1": 200.87,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KNagaMuniReddy",
+        "x": 80.46,
+        "y": 192.87,
+        "x1": 145.34,
+        "y1": 200.87,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "19/03/26",
+        "x": 33.68,
+        "y": 251.26,
+        "x1": 62.13,
+        "y1": 259.26,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-PRAVEEN",
+        "x": 72.03,
+        "y": 251.26,
+        "x1": 124.47,
+        "y1": 259.26,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000722739667293",
+        "x": 288.6,
+        "y": 251.26,
+        "x1": 352.6,
+        "y1": 259.26,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "20/03/26",
+        "x": 362.5,
+        "y": 251.26,
+        "x1": 390.95,
+        "y1": 259.26,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "17,000.00",
+        "x": 438.24,
+        "y": 251.26,
+        "x1": 470.24,
+        "y1": 259.26,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "377,848.55",
+        "x": 590.71,
+        "y": 251.26,
+        "x1": 626.71,
+        "y1": 259.26,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KHANNAP-PRAWINKHANNA230@OKHD",
+        "x": 68.03,
+        "y": 268.46,
+        "x1": 218.48,
+        "y1": 276.46,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "FCBANK-HDFC0004182-722739667293-PAYMENT",
+        "x": 72.03,
+        "y": 285.66,
+        "x1": 248.47,
+        "y1": 293.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "FROMPHONE",
+        "x": 72.03,
+        "y": 302.86,
+        "x1": 123.37,
+        "y1": 310.86,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "20/03/26",
+        "x": 33.68,
+        "y": 320.06,
+        "x1": 62.13,
+        "y1": 328.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-MURTHICHENNA",
+        "x": 72.03,
+        "y": 320.06,
+        "x1": 154.46,
+        "y1": 328.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000405693460926",
+        "x": 288.6,
+        "y": 320.06,
+        "x1": 352.6,
+        "y1": 328.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "20/03/26",
+        "x": 362.5,
+        "y": 320.06,
+        "x1": 390.95,
+        "y1": 328.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "100.00",
+        "x": 448.24,
+        "y": 320.06,
+        "x1": 470.24,
+        "y1": 328.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "377,748.55",
+        "x": 590.71,
+        "y": 320.06,
+        "x1": 626.71,
+        "y1": 328.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KESAVA-PAYTM.S1YN4JH@P",
+        "x": 68.03,
+        "y": 337.26,
+        "x1": 177.84,
+        "y1": 345.26,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "TY-YESB0MCHUPI-405693460926-PAYMENT",
+        "x": 72.03,
+        "y": 354.46,
+        "x1": 232.91,
+        "y1": 362.46,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "FROM",
+        "x": 68.03,
+        "y": 371.66,
+        "x1": 90.7,
+        "y1": 379.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "PHONE",
+        "x": 74.03,
+        "y": 388.86,
+        "x1": 100.7,
+        "y1": 396.86,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "21/03/26",
+        "x": 33.68,
+        "y": 406.06,
+        "x1": 62.13,
+        "y1": 414.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-NALLABOYANAPALLI",
+        "x": 72.03,
+        "y": 406.06,
+        "x1": 173.57,
+        "y1": 414.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000943089528898",
+        "x": 288.6,
+        "y": 406.06,
+        "x1": 352.6,
+        "y1": 414.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "21/03/26",
+        "x": 362.5,
+        "y": 406.06,
+        "x1": 390.95,
+        "y1": 414.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "50.00",
+        "x": 452.24,
+        "y": 406.06,
+        "x1": 470.24,
+        "y1": 414.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "377,698.55",
+        "x": 590.71,
+        "y": 406.06,
+        "x1": 626.71,
+        "y1": 414.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "AM-PAYTM.S1T50FK@P",
+        "x": 68.03,
+        "y": 423.26,
+        "x1": 156.96,
+        "y1": 431.26,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "TY-YESB0MCHUPI-943089528898-PAYMENT",
+        "x": 72.03,
+        "y": 440.46,
+        "x1": 232.91,
+        "y1": 448.46,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "FROM",
+        "x": 68.03,
+        "y": 457.66,
+        "x1": 90.7,
+        "y1": 465.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "PHONE",
+        "x": 74.03,
+        "y": 474.86,
+        "x1": 100.7,
+        "y1": 482.86,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "21/03/26",
+        "x": 33.68,
+        "y": 492.06,
+        "x1": 62.13,
+        "y1": 500.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-BOYAPATI",
+        "x": 72.03,
+        "y": 492.06,
+        "x1": 128.02,
+        "y1": 500.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000800873165707",
+        "x": 288.6,
+        "y": 492.06,
+        "x1": 352.6,
+        "y1": 500.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "21/03/26",
+        "x": 362.5,
+        "y": 492.06,
+        "x1": 390.95,
+        "y1": 500.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "100.00",
+        "x": 448.24,
+        "y": 492.06,
+        "x1": 470.24,
+        "y1": 500.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "377,598.55",
+        "x": 590.71,
+        "y": 492.06,
+        "x1": 626.71,
+        "y1": 500.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "SUBBARATHN-9701509135@YBL-",
+        "x": 68.03,
+        "y": 509.26,
+        "x1": 190.95,
+        "y1": 517.26,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "SBIN0011124-800873165707-PAYMENTFROMPH",
+        "x": 72.03,
+        "y": 526.46,
+        "x1": 247.14,
+        "y1": 534.46,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "ONE",
+        "x": 72.03,
+        "y": 543.66,
+        "x1": 88.47,
+        "y1": 551.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "21/03/26",
+        "x": 33.68,
+        "y": 560.86,
+        "x1": 62.13,
+        "y1": 568.86,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-SAYYEDALLA",
+        "x": 72.03,
+        "y": 560.86,
+        "x1": 143.35,
+        "y1": 568.86,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000907438993382",
+        "x": 288.6,
+        "y": 560.86,
+        "x1": 352.6,
+        "y1": 568.86,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "21/03/26",
+        "x": 362.5,
+        "y": 560.86,
+        "x1": 390.95,
+        "y1": 568.86,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "30.00",
+        "x": 452.24,
+        "y": 560.86,
+        "x1": 470.24,
+        "y1": 568.86,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "377,568.55",
+        "x": 590.71,
+        "y": 560.86,
+        "x1": 626.71,
+        "y1": 568.86,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "BAKASH-PAYTMQR6TAQXM@PTY",
+        "x": 68.03,
+        "y": 578.06,
+        "x1": 198.5,
+        "y1": 586.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "S-YESB0PTMUPI-907438993382-PAYMENTFROM",
+        "x": 72.03,
+        "y": 595.26,
+        "x1": 249.59,
+        "y1": 603.26,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "PHONE",
+        "x": 72.03,
+        "y": 612.46,
+        "x1": 98.7,
+        "y1": 620.46,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "21/03/26",
+        "x": 33.68,
+        "y": 629.66,
+        "x1": 62.13,
+        "y1": 637.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-APOLLO",
+        "x": 72.03,
+        "y": 629.66,
+        "x1": 119.14,
+        "y1": 637.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000111766346823",
+        "x": 288.6,
+        "y": 629.66,
+        "x1": 352.6,
+        "y1": 637.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "21/03/26",
+        "x": 362.5,
+        "y": 629.66,
+        "x1": 390.95,
+        "y1": 637.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "139.69",
+        "x": 448.24,
+        "y": 629.66,
+        "x1": 470.24,
+        "y1": 637.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "377,428.86",
+        "x": 590.71,
+        "y": 629.66,
+        "x1": 626.71,
+        "y1": 637.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "PHARMACY-APOLLOPHARMACYOFFLIN",
+        "x": 68.03,
+        "y": 646.86,
+        "x1": 220.92,
+        "y1": 654.86,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "E@YBL-YESB0YBLUPI-111766346823-PAYMENT",
+        "x": 72.03,
+        "y": 664.06,
+        "x1": 248.28,
+        "y1": 672.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "F",
+        "x": 68.03,
+        "y": 681.26,
+        "x1": 72.48,
+        "y1": 689.26,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "OR183942",
+        "x": 72.03,
+        "y": 698.46,
+        "x1": 109.14,
+        "y1": 706.46,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "22/03/26",
+        "x": 33.68,
+        "y": 715.66,
+        "x1": 62.13,
+        "y1": 723.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-PISTAHOUSETEA-9581098011@OKBIZAXIS",
+        "x": 72.03,
+        "y": 715.66,
+        "x1": 249.16,
+        "y1": 723.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000899857516203",
+        "x": 288.6,
+        "y": 715.66,
+        "x1": 352.6,
+        "y1": 723.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "22/03/26",
+        "x": 362.5,
+        "y": 715.66,
+        "x1": 390.95,
+        "y1": 723.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "65.00",
+        "x": 452.24,
+        "y": 715.66,
+        "x1": 470.24,
+        "y1": 723.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "377,363.86",
+        "x": 590.71,
+        "y": 715.66,
+        "x1": 626.71,
+        "y1": 723.66,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "-UTIB0000553-899857516203-PAYMENTFROMP",
+        "x": 72.03,
+        "y": 732.86,
+        "x1": 244.47,
+        "y1": 740.86,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "HONE",
+        "x": 72.03,
+        "y": 750.06,
+        "x1": 94.25,
+        "y1": 758.06,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Statementof",
+        "x": 340.16,
+        "y": 212.71,
+        "x1": 401.15,
+        "y1": 224.71,
+        "font": "Times-Roman",
+        "size": 12.0,
+        "color": "#000000"
+      },
+      {
+        "text": "account",
+        "x": 404.15,
+        "y": 212.71,
+        "x1": 441.47,
+        "y1": 224.71,
+        "font": "Times-Roman",
+        "size": 12.0,
+        "color": "#000000"
+      },
+      {
+        "text": "AccountBranch",
+        "x": 340.16,
+        "y": 52.5,
+        "x1": 392.37,
+        "y1": 60.5,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 52.5,
+        "x1": 399.07,
+        "y1": 60.5,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KORAMANGALA4THBLOCK",
+        "x": 402.52,
+        "y": 52.5,
+        "x1": 511.84,
+        "y1": 60.5,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Address",
+        "x": 340.16,
+        "y": 61.2,
+        "x1": 366.37,
+        "y1": 69.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 61.2,
+        "x1": 399.07,
+        "y1": 69.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "WARDNO.151,80FEETROAD,4THBLOCK",
+        "x": 402.52,
+        "y": 61.2,
+        "x1": 558.06,
+        "y1": 69.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KORAMANGALA,BANGALORE560034",
+        "x": 402.52,
+        "y": 69.9,
+        "x1": 545.39,
+        "y1": 77.9,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "LANDMARKNEXTTOSTARBUCKSCAFE",
+        "x": 402.52,
+        "y": 78.6,
+        "x1": 556.29,
+        "y1": 86.6,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "City",
+        "x": 340.16,
+        "y": 87.3,
+        "x1": 353.94,
+        "y1": 95.3,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 87.3,
+        "x1": 399.07,
+        "y1": 95.3,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "BENGALURU560034",
+        "x": 402.52,
+        "y": 87.3,
+        "x1": 477.85,
+        "y1": 95.3,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "State",
+        "x": 340.16,
+        "y": 96.0,
+        "x1": 356.16,
+        "y1": 104.0,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 96.0,
+        "x1": 399.07,
+        "y1": 104.0,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KARNATAKA",
+        "x": 402.52,
+        "y": 96.0,
+        "x1": 453.17,
+        "y1": 104.0,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Phoneno.",
+        "x": 340.16,
+        "y": 104.7,
+        "x1": 372.16,
+        "y1": 112.7,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 104.7,
+        "x1": 399.07,
+        "y1": 112.7,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "18002600/18001600",
+        "x": 402.52,
+        "y": 104.7,
+        "x1": 468.74,
+        "y1": 112.7,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "ODLimit",
+        "x": 340.16,
+        "y": 113.4,
+        "x1": 371.49,
+        "y1": 121.4,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 113.4,
+        "x1": 399.07,
+        "y1": 121.4,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0.00",
+        "x": 402.52,
+        "y": 113.4,
+        "x1": 416.52,
+        "y1": 121.4,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Currency",
+        "x": 340.16,
+        "y": 122.1,
+        "x1": 369.92,
+        "y1": 130.1,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 122.1,
+        "x1": 399.07,
+        "y1": 130.1,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "INR",
+        "x": 402.52,
+        "y": 122.1,
+        "x1": 416.29,
+        "y1": 130.1,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Email",
+        "x": 340.16,
+        "y": 130.8,
+        "x1": 359.27,
+        "y1": 138.8,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 130.8,
+        "x1": 399.07,
+        "y1": 138.8,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "kanalahvr@gmail.com",
+        "x": 402.52,
+        "y": 130.8,
+        "x1": 475.43,
+        "y1": 138.8,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "CustID",
+        "x": 340.16,
+        "y": 139.5,
+        "x1": 365.27,
+        "y1": 147.5,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 139.5,
+        "x1": 399.07,
+        "y1": 147.5,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "178714441",
+        "x": 402.52,
+        "y": 139.5,
+        "x1": 438.52,
+        "y1": 147.5,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "AccountNo",
+        "x": 340.16,
+        "y": 148.2,
+        "x1": 379.04,
+        "y1": 156.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 148.2,
+        "x1": 399.07,
+        "y1": 156.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "50100462754065",
+        "x": 402.52,
+        "y": 148.2,
+        "x1": 458.52,
+        "y1": 156.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "VIRTUALIMPERIA",
+        "x": 464.52,
+        "y": 148.2,
+        "x1": 534.51,
+        "y1": 156.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "A/COpenDate",
+        "x": 340.16,
+        "y": 156.9,
+        "x1": 389.93,
+        "y1": 164.9,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 156.9,
+        "x1": 399.07,
+        "y1": 164.9,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "08/10/2021",
+        "x": 402.52,
+        "y": 156.9,
+        "x1": 438.97,
+        "y1": 164.9,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "AccountStatus",
+        "x": 340.16,
+        "y": 165.6,
+        "x1": 388.82,
+        "y1": 173.6,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 165.6,
+        "x1": 399.07,
+        "y1": 173.6,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Regular",
+        "x": 402.52,
+        "y": 165.6,
+        "x1": 427.85,
+        "y1": 173.6,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "From",
+        "x": 34.02,
+        "y": 215.54,
+        "x1": 51.35,
+        "y1": 223.54,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 55.35,
+        "y": 215.54,
+        "x1": 57.58,
+        "y1": 223.54,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "20/03/2026",
+        "x": 61.58,
+        "y": 215.54,
+        "x1": 98.02,
+        "y1": 223.54,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "To",
+        "x": 154.02,
+        "y": 215.54,
+        "x1": 162.91,
+        "y1": 223.54,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 166.91,
+        "y": 215.54,
+        "x1": 169.13,
+        "y1": 223.54,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "29/03/2026",
+        "x": 173.13,
+        "y": 215.54,
+        "x1": 209.58,
+        "y1": 223.54,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "RTGS/NEFTIFSC",
+        "x": 340.16,
+        "y": 174.72,
+        "x1": 396.34,
+        "y1": 182.02,
+        "font": "Times-Roman",
+        "size": 7.3,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 174.3,
+        "x1": 399.07,
+        "y1": 182.3,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "HDFC0002777",
+        "x": 402.52,
+        "y": 174.3,
+        "x1": 451.85,
+        "y1": 182.3,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "MICR:560240076",
+        "x": 475.85,
+        "y": 174.3,
+        "x1": 538.53,
+        "y1": 182.3,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "BranchCode",
+        "x": 340.16,
+        "y": 183.07,
+        "x1": 382.15,
+        "y1": 191.07,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 183.07,
+        "x1": 399.07,
+        "y1": 191.07,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "2777",
+        "x": 402.52,
+        "y": 183.07,
+        "x1": 418.52,
+        "y1": 191.07,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "AccountType",
+        "x": 340.16,
+        "y": 191.77,
+        "x1": 385.7,
+        "y1": 199.77,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 191.77,
+        "x1": 399.07,
+        "y1": 199.77,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "INSTANTSAVINGSALARYPREMIUM(161)",
+        "x": 402.52,
+        "y": 191.77,
+        "x1": 559.61,
+        "y1": 199.77,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "HDFCBANKLIMITED",
+        "x": 28.35,
+        "y": 784.85,
+        "x1": 124.35,
+        "y1": 793.85,
+        "font": "Times-Bold",
+        "size": 9.0,
+        "color": "#000000"
+      },
+      {
+        "text": "*Closingbalanceincludesfundsearmarkedforholdandunclearedfunds",
+        "x": 28.35,
+        "y": 794.94,
+        "x1": 261.85,
+        "y1": 802.94,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Contentsofthisstatementwillbeconsideredcorrectifnoerrorisreportedwithin30daysofreceiptofstatement.TheaddressonthisstatementisthatonrecordwiththeBankasatthedayofrequesting",
+        "x": 28.35,
+        "y": 804.24,
+        "x1": 592.34,
+        "y1": 811.24,
+        "font": "Times-Roman",
+        "size": 7.0,
+        "color": "#000000"
+      },
+      {
+        "text": "thisstatement.",
+        "x": 28.35,
+        "y": 811.54,
+        "x1": 68.79,
+        "y1": 818.54,
+        "font": "Times-Roman",
+        "size": 7.0,
+        "color": "#000000"
+      },
+      {
+        "text": "StateaccountbranchGSTN:29AAACH2702H1ZW",
+        "x": 28.35,
+        "y": 818.79,
+        "x1": 182.15,
+        "y1": 825.79,
+        "font": "Times-Bold",
+        "size": 7.0,
+        "color": "#000000"
+      },
+      {
+        "text": "HDFCBankGSTINnumberdetailsareavailableathttps://www.hdfcbank.com/personal/making-payments/online-tax-payment/goods-and-service-tax.",
+        "x": 28.35,
+        "y": 826.0,
+        "x1": 451.59,
+        "y1": 833.0,
+        "font": "Times-Roman",
+        "size": 7.0,
+        "color": "#000000"
+      },
+      {
+        "text": "RegisteredOfficeAddress:HDFCBankHouse,SenapatiBapatMarg,LowerParel,Mumbai400013",
+        "x": 28.35,
+        "y": 833.3,
+        "x1": 306.36,
+        "y1": 840.3,
+        "font": "Times-Roman",
+        "size": 7.0,
+        "color": "#000000"
+      }
+    ],
+    "lines": [],
+    "rects": [
+      {
+        "x0": 28.35,
+        "y0": 228.88,
+        "x1": 630.71,
+        "y1": 229.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 27.78,
+        "y0": 228.88,
+        "x1": 28.35,
+        "y1": 763.63,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 630.71,
+        "y0": 228.88,
+        "x1": 631.27,
+        "y1": 763.63,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 28.35,
+        "y0": 763.06,
+        "x1": 630.71,
+        "y1": 763.63,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 229.45,
+        "x1": 68.03,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 28.35,
+        "y0": 246.5,
+        "x1": 67.47,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 229.45,
+        "x1": 255.12,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 68.03,
+        "y0": 246.5,
+        "x1": 254.55,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 229.45,
+        "x1": 357.16,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 255.12,
+        "y0": 246.5,
+        "x1": 356.6,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 229.45,
+        "x1": 396.85,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 357.16,
+        "y0": 246.5,
+        "x1": 396.28,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 229.45,
+        "x1": 474.8,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.85,
+        "y0": 246.5,
+        "x1": 474.24,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 229.45,
+        "x1": 552.75,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.8,
+        "y0": 246.5,
+        "x1": 552.19,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.75,
+        "y0": 246.5,
+        "x1": 630.71,
+        "y1": 247.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 247.06,
+        "x1": 68.03,
+        "y1": 281.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 247.06,
+        "x1": 255.12,
+        "y1": 281.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 247.06,
+        "x1": 357.16,
+        "y1": 281.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 247.06,
+        "x1": 396.85,
+        "y1": 281.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 247.06,
+        "x1": 474.8,
+        "y1": 281.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 247.06,
+        "x1": 552.75,
+        "y1": 281.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 281.46,
+        "x1": 68.03,
+        "y1": 298.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 281.46,
+        "x1": 255.12,
+        "y1": 298.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 281.46,
+        "x1": 357.16,
+        "y1": 298.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 281.46,
+        "x1": 396.85,
+        "y1": 298.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 281.46,
+        "x1": 474.8,
+        "y1": 298.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 281.46,
+        "x1": 552.75,
+        "y1": 298.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 298.66,
+        "x1": 68.03,
+        "y1": 315.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 298.66,
+        "x1": 255.12,
+        "y1": 315.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 298.66,
+        "x1": 357.16,
+        "y1": 315.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 298.66,
+        "x1": 396.85,
+        "y1": 315.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 298.66,
+        "x1": 474.8,
+        "y1": 315.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 298.66,
+        "x1": 552.75,
+        "y1": 315.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 315.86,
+        "x1": 68.03,
+        "y1": 350.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 315.86,
+        "x1": 255.12,
+        "y1": 350.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 315.86,
+        "x1": 357.16,
+        "y1": 350.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 315.86,
+        "x1": 396.85,
+        "y1": 350.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 315.86,
+        "x1": 474.8,
+        "y1": 350.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 315.86,
+        "x1": 552.75,
+        "y1": 350.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 350.26,
+        "x1": 68.03,
+        "y1": 384.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 350.26,
+        "x1": 255.12,
+        "y1": 384.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 350.26,
+        "x1": 357.16,
+        "y1": 384.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 350.26,
+        "x1": 396.85,
+        "y1": 384.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 350.26,
+        "x1": 474.8,
+        "y1": 384.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 350.26,
+        "x1": 552.75,
+        "y1": 384.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 384.66,
+        "x1": 68.03,
+        "y1": 401.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 384.66,
+        "x1": 255.12,
+        "y1": 401.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 384.66,
+        "x1": 357.16,
+        "y1": 401.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 384.66,
+        "x1": 396.85,
+        "y1": 401.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 384.66,
+        "x1": 474.8,
+        "y1": 401.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 384.66,
+        "x1": 552.75,
+        "y1": 401.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 401.86,
+        "x1": 68.03,
+        "y1": 436.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 401.86,
+        "x1": 255.12,
+        "y1": 436.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 401.86,
+        "x1": 357.16,
+        "y1": 436.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 401.86,
+        "x1": 396.85,
+        "y1": 436.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 401.86,
+        "x1": 474.8,
+        "y1": 436.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 401.86,
+        "x1": 552.75,
+        "y1": 436.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 436.26,
+        "x1": 68.03,
+        "y1": 470.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 436.26,
+        "x1": 255.12,
+        "y1": 470.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 436.26,
+        "x1": 357.16,
+        "y1": 470.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 436.26,
+        "x1": 396.85,
+        "y1": 470.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 436.26,
+        "x1": 474.8,
+        "y1": 470.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 436.26,
+        "x1": 552.75,
+        "y1": 470.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 470.66,
+        "x1": 68.03,
+        "y1": 487.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 470.66,
+        "x1": 255.12,
+        "y1": 487.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 470.66,
+        "x1": 357.16,
+        "y1": 487.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 470.66,
+        "x1": 396.85,
+        "y1": 487.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 470.66,
+        "x1": 474.8,
+        "y1": 487.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 470.66,
+        "x1": 552.75,
+        "y1": 487.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 487.86,
+        "x1": 68.03,
+        "y1": 522.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 487.86,
+        "x1": 255.12,
+        "y1": 522.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 487.86,
+        "x1": 357.16,
+        "y1": 522.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 487.86,
+        "x1": 396.85,
+        "y1": 522.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 487.86,
+        "x1": 474.8,
+        "y1": 522.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 487.86,
+        "x1": 552.75,
+        "y1": 522.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 522.26,
+        "x1": 68.03,
+        "y1": 539.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 522.26,
+        "x1": 255.12,
+        "y1": 539.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 522.26,
+        "x1": 357.16,
+        "y1": 539.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 522.26,
+        "x1": 396.85,
+        "y1": 539.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 522.26,
+        "x1": 474.8,
+        "y1": 539.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 522.26,
+        "x1": 552.75,
+        "y1": 539.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 539.46,
+        "x1": 68.03,
+        "y1": 556.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 539.46,
+        "x1": 255.12,
+        "y1": 556.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 539.46,
+        "x1": 357.16,
+        "y1": 556.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 539.46,
+        "x1": 396.85,
+        "y1": 556.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 539.46,
+        "x1": 474.8,
+        "y1": 556.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 539.46,
+        "x1": 552.75,
+        "y1": 556.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 556.66,
+        "x1": 68.03,
+        "y1": 591.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 556.66,
+        "x1": 255.12,
+        "y1": 591.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 556.66,
+        "x1": 357.16,
+        "y1": 591.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 556.66,
+        "x1": 396.85,
+        "y1": 591.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 556.66,
+        "x1": 474.8,
+        "y1": 591.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 556.66,
+        "x1": 552.75,
+        "y1": 591.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 591.06,
+        "x1": 68.03,
+        "y1": 608.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 591.06,
+        "x1": 255.12,
+        "y1": 608.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 591.06,
+        "x1": 357.16,
+        "y1": 608.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 591.06,
+        "x1": 396.85,
+        "y1": 608.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 591.06,
+        "x1": 474.8,
+        "y1": 608.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 591.06,
+        "x1": 552.75,
+        "y1": 608.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 608.26,
+        "x1": 68.03,
+        "y1": 625.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 608.26,
+        "x1": 255.12,
+        "y1": 625.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 608.26,
+        "x1": 357.16,
+        "y1": 625.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 608.26,
+        "x1": 396.85,
+        "y1": 625.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 608.26,
+        "x1": 474.8,
+        "y1": 625.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 608.26,
+        "x1": 552.75,
+        "y1": 625.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 625.46,
+        "x1": 68.03,
+        "y1": 659.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 625.46,
+        "x1": 255.12,
+        "y1": 659.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 625.46,
+        "x1": 357.16,
+        "y1": 659.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 625.46,
+        "x1": 396.85,
+        "y1": 659.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 625.46,
+        "x1": 474.8,
+        "y1": 659.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 625.46,
+        "x1": 552.75,
+        "y1": 659.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 659.86,
+        "x1": 68.03,
+        "y1": 694.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 659.86,
+        "x1": 255.12,
+        "y1": 694.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 659.86,
+        "x1": 357.16,
+        "y1": 694.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 659.86,
+        "x1": 396.85,
+        "y1": 694.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 659.86,
+        "x1": 474.8,
+        "y1": 694.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 659.86,
+        "x1": 552.75,
+        "y1": 694.26,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 694.26,
+        "x1": 68.03,
+        "y1": 711.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 694.26,
+        "x1": 255.12,
+        "y1": 711.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 694.26,
+        "x1": 357.16,
+        "y1": 711.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 694.26,
+        "x1": 396.85,
+        "y1": 711.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 694.26,
+        "x1": 474.8,
+        "y1": 711.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 694.26,
+        "x1": 552.75,
+        "y1": 711.46,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 711.46,
+        "x1": 68.03,
+        "y1": 728.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 711.46,
+        "x1": 255.12,
+        "y1": 728.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 711.46,
+        "x1": 357.16,
+        "y1": 728.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 711.46,
+        "x1": 396.85,
+        "y1": 728.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 711.46,
+        "x1": 474.8,
+        "y1": 728.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 711.46,
+        "x1": 552.75,
+        "y1": 728.66,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 728.66,
+        "x1": 68.03,
+        "y1": 745.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 728.66,
+        "x1": 255.12,
+        "y1": 745.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 728.66,
+        "x1": 357.16,
+        "y1": 745.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 728.66,
+        "x1": 396.85,
+        "y1": 745.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 728.66,
+        "x1": 474.8,
+        "y1": 745.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 728.66,
+        "x1": 552.75,
+        "y1": 745.86,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 745.86,
+        "x1": 68.03,
+        "y1": 763.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 745.86,
+        "x1": 255.12,
+        "y1": 763.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 745.86,
+        "x1": 357.16,
+        "y1": 763.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 745.86,
+        "x1": 396.85,
+        "y1": 763.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 745.86,
+        "x1": 474.8,
+        "y1": 763.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 745.86,
+        "x1": 552.75,
+        "y1": 763.06,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 28.35,
+        "y0": 81.18,
+        "x1": 311.81,
+        "y1": 82.32,
+        "stroke_color": 0,
+        "fill_color": 0.0,
+        "width": 0
+      },
+      {
+        "x0": 27.21,
+        "y0": 81.18,
+        "x1": 28.35,
+        "y1": 191.16,
+        "stroke_color": 0,
+        "fill_color": 0.0,
+        "width": 0
+      },
+      {
+        "x0": 311.81,
+        "y0": 81.18,
+        "x1": 312.94,
+        "y1": 191.16,
+        "stroke_color": 0,
+        "fill_color": 0.0,
+        "width": 0
+      },
+      {
+        "x0": 28.35,
+        "y0": 190.03,
+        "x1": 311.81,
+        "y1": 191.16,
+        "stroke_color": 0,
+        "fill_color": 0.0,
+        "width": 0
+      },
+      {
+        "x0": 340.16,
+        "y0": 51.13,
+        "x1": 623.62,
+        "y1": 52.55,
+        "stroke_color": 0,
+        "fill_color": 1.0,
+        "width": 0
+      },
+      {
+        "x0": 338.74,
+        "y0": 51.13,
+        "x1": 340.16,
+        "y1": 201.94,
+        "stroke_color": 0,
+        "fill_color": 1.0,
+        "width": 0
+      },
+      {
+        "x0": 623.62,
+        "y0": 51.13,
+        "x1": 625.04,
+        "y1": 201.94,
+        "stroke_color": 0,
+        "fill_color": 1.0,
+        "width": 0
+      },
+      {
+        "x0": 340.16,
+        "y0": 200.52,
+        "x1": 623.62,
+        "y1": 201.94,
+        "stroke_color": 0,
+        "fill_color": 1.0,
+        "width": 0
+      }
+    ],
+    "images": [
+      {
+        "x": 28.35,
+        "y": 35.33,
+        "width": 145.0,
+        "height": 32.0,
+        "name": "Im1",
+        "file": "/Users/kanalaharshareddy/Library/CloudStorage/OneDrive-Personal/Applications/BankStatementGenerator_V2/data/_bank_setup/template_images/page1_img0.jpeg"
+      }
+    ],
+    "vector_regions": [
+      {
+        "x": 26.78,
+        "y": 227.88,
+        "width": 605.49,
+        "height": 536.75,
+        "file": "/Users/kanalaharshareddy/Library/CloudStorage/OneDrive-Personal/Applications/BankStatementGenerator_V2/data/_bank_setup/template_images/page1_vector0.png",
+        "type": "vector_region"
+      },
+      {
+        "x": 26.21,
+        "y": 80.18,
+        "width": 287.73,
+        "height": 111.98,
+        "file": "/Users/kanalaharshareddy/Library/CloudStorage/OneDrive-Personal/Applications/BankStatementGenerator_V2/data/_bank_setup/template_images/page1_vector1.png",
+        "type": "vector_region"
+      }
+    ]
+  },
+  "page2": {
+    "page": 2,
+    "width": 638,
+    "height": 842,
+    "text_blocks": [
+      {
+        "text": "22/03/26",
+        "x": 33.68,
+        "y": 231.65,
+        "x1": 62.13,
+        "y1": 239.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-RPCPETROLEUM",
+        "x": 72.03,
+        "y": 231.65,
+        "x1": 152.7,
+        "y1": 239.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000222181726540",
+        "x": 288.6,
+        "y": 231.65,
+        "x1": 352.6,
+        "y1": 239.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "22/03/26",
+        "x": 362.5,
+        "y": 231.65,
+        "x1": 390.95,
+        "y1": 239.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "10.00",
+        "x": 452.24,
+        "y": 231.65,
+        "x1": 470.24,
+        "y1": 239.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "377,353.86",
+        "x": 590.71,
+        "y": 231.65,
+        "x1": 626.71,
+        "y1": 239.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "PRIVAT-PAYTMQR5MW41B@P",
+        "x": 68.03,
+        "y": 248.85,
+        "x1": 182.51,
+        "y1": 256.85,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "TYS-YESB0PTMUPI-222181726540-PAYMENTFRO",
+        "x": 72.03,
+        "y": 266.05,
+        "x1": 253.14,
+        "y1": 274.05,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "MPHONE",
+        "x": 72.03,
+        "y": 283.25,
+        "x1": 107.81,
+        "y1": 291.25,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "23/03/26",
+        "x": 33.68,
+        "y": 300.45,
+        "x1": 62.13,
+        "y1": 308.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-JUICY",
+        "x": 72.03,
+        "y": 300.45,
+        "x1": 110.25,
+        "y1": 308.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000906004066390",
+        "x": 288.6,
+        "y": 300.45,
+        "x1": 352.6,
+        "y1": 308.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "23/03/26",
+        "x": 362.5,
+        "y": 300.45,
+        "x1": 390.95,
+        "y1": 308.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "95.00",
+        "x": 452.24,
+        "y": 300.45,
+        "x1": 470.24,
+        "y1": 308.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "377,258.86",
+        "x": 590.71,
+        "y": 300.45,
+        "x1": 626.71,
+        "y1": 308.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "FRESH-PAYTM.S1X3WHT@PTY-YESB0M",
+        "x": 68.03,
+        "y": 317.65,
+        "x1": 218.74,
+        "y1": 325.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "CHUPI-906004066390-PAYMENTFROMPHONE",
+        "x": 72.03,
+        "y": 334.85,
+        "x1": 241.36,
+        "y1": 342.85,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "23/03/26",
+        "x": 33.68,
+        "y": 352.05,
+        "x1": 62.13,
+        "y1": 360.05,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-KANALA",
+        "x": 72.03,
+        "y": 352.05,
+        "x1": 121.35,
+        "y1": 360.05,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000998566764733",
+        "x": 288.6,
+        "y": 352.05,
+        "x1": 352.6,
+        "y1": 360.05,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "23/03/26",
+        "x": 362.5,
+        "y": 352.05,
+        "x1": 390.95,
+        "y1": 360.05,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "6,000.00",
+        "x": 442.24,
+        "y": 352.05,
+        "x1": 470.24,
+        "y1": 360.05,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "371,258.86",
+        "x": 590.71,
+        "y": 352.05,
+        "x1": 626.71,
+        "y1": 360.05,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "HARSHAVARDHAN-KANALAHVR1@AXL-",
+        "x": 68.03,
+        "y": 369.25,
+        "x1": 224.7,
+        "y1": 377.25,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "AIRP0000001-998566764733-PAYMENTFROMPH",
+        "x": 72.03,
+        "y": 386.45,
+        "x1": 247.14,
+        "y1": 394.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "ONE",
+        "x": 72.03,
+        "y": 403.65,
+        "x1": 88.47,
+        "y1": 411.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "23/03/26",
+        "x": 33.68,
+        "y": 420.85,
+        "x1": 62.13,
+        "y1": 428.85,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-GANGARAPULOKANATHA",
+        "x": 72.03,
+        "y": 420.85,
+        "x1": 190.01,
+        "y1": 428.85,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000084897248263",
+        "x": 288.6,
+        "y": 420.85,
+        "x1": 352.6,
+        "y1": 428.85,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "23/03/26",
+        "x": 362.5,
+        "y": 420.85,
+        "x1": 390.95,
+        "y1": 428.85,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "30,000.00",
+        "x": 516.19,
+        "y": 420.85,
+        "x1": 548.19,
+        "y1": 428.85,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "401,258.86",
+        "x": 590.71,
+        "y": 420.85,
+        "x1": 626.71,
+        "y1": 428.85,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "-LOKANATHAG19961",
+        "x": 68.03,
+        "y": 438.05,
+        "x1": 146.68,
+        "y1": 446.05,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "@AXL-HDFC0002380-084897248263-PAYMENTFR",
+        "x": 72.03,
+        "y": 455.25,
+        "x1": 251.62,
+        "y1": 463.25,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "OMPHONE",
+        "x": 72.03,
+        "y": 472.45,
+        "x1": 113.58,
+        "y1": 480.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "25/03/26",
+        "x": 33.68,
+        "y": 489.65,
+        "x1": 62.13,
+        "y1": 497.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-MR",
+        "x": 72.03,
+        "y": 489.65,
+        "x1": 100.03,
+        "y1": 497.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000829482954428",
+        "x": 288.6,
+        "y": 489.65,
+        "x1": 352.6,
+        "y1": 497.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "25/03/26",
+        "x": 362.5,
+        "y": 489.65,
+        "x1": 390.95,
+        "y1": 497.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "150.00",
+        "x": 448.24,
+        "y": 489.65,
+        "x1": 470.24,
+        "y1": 497.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "401,108.86",
+        "x": 590.71,
+        "y": 489.65,
+        "x1": 626.71,
+        "y1": 497.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "SADAVRIJ-PAYTMQR6V3MFP@PTYS-YESB",
+        "x": 68.03,
+        "y": 506.85,
+        "x1": 228.3,
+        "y1": 514.85,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0PTMUPI-829482954428-PAYMENTFROMPHONE",
+        "x": 72.03,
+        "y": 524.05,
+        "x1": 250.7,
+        "y1": 532.05,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "25/03/26",
+        "x": 33.68,
+        "y": 541.25,
+        "x1": 62.13,
+        "y1": 549.25,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-KARRITEJA-8008532329-2@YBL-HDFC0001",
+        "x": 72.03,
+        "y": 541.25,
+        "x1": 245.83,
+        "y1": 549.25,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000252932270810",
+        "x": 288.6,
+        "y": 541.25,
+        "x1": 352.6,
+        "y1": 549.25,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "25/03/26",
+        "x": 362.5,
+        "y": 541.25,
+        "x1": 390.95,
+        "y1": 549.25,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "88,200.00",
+        "x": 516.19,
+        "y": 541.25,
+        "x1": 548.19,
+        "y1": 549.25,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "489,308.86",
+        "x": 590.71,
+        "y": 541.25,
+        "x1": 626.71,
+        "y1": 549.25,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "752-252932270810-PAYMENTFROMPHONE",
+        "x": 72.03,
+        "y": 558.45,
+        "x1": 229.36,
+        "y1": 566.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "25/03/26",
+        "x": 33.68,
+        "y": 575.65,
+        "x1": 62.13,
+        "y1": 583.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-MRVIJAYKUMAR",
+        "x": 72.03,
+        "y": 575.65,
+        "x1": 154.91,
+        "y1": 583.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000121924303264",
+        "x": 288.6,
+        "y": 575.65,
+        "x1": 352.6,
+        "y1": 583.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "25/03/26",
+        "x": 362.5,
+        "y": 575.65,
+        "x1": 390.95,
+        "y1": 583.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "50.00",
+        "x": 452.24,
+        "y": 575.65,
+        "x1": 470.24,
+        "y1": 583.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "489,258.86",
+        "x": 590.71,
+        "y": 575.65,
+        "x1": 626.71,
+        "y1": 583.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "ARMUG-Q778463464@YBL-",
+        "x": 68.03,
+        "y": 592.85,
+        "x1": 168.28,
+        "y1": 600.85,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "YESB0YBLUPI-121924303264-PAYMENTFROMPH",
+        "x": 72.03,
+        "y": 610.05,
+        "x1": 254.26,
+        "y1": 618.05,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "ONE",
+        "x": 72.03,
+        "y": 627.25,
+        "x1": 88.47,
+        "y1": 635.25,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "25/03/26",
+        "x": 33.68,
+        "y": 644.45,
+        "x1": 62.13,
+        "y1": 652.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-AKHILESH",
+        "x": 72.03,
+        "y": 644.45,
+        "x1": 127.58,
+        "y1": 652.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000635662563258",
+        "x": 288.6,
+        "y": 644.45,
+        "x1": 352.6,
+        "y1": 652.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "25/03/26",
+        "x": 362.5,
+        "y": 644.45,
+        "x1": 390.95,
+        "y1": 652.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "40.00",
+        "x": 452.24,
+        "y": 644.45,
+        "x1": 470.24,
+        "y1": 652.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "489,218.86",
+        "x": 590.71,
+        "y": 644.45,
+        "x1": 626.71,
+        "y1": 652.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KUMAR-PAYTMQR6FM76T@PTYS-YE",
+        "x": 68.03,
+        "y": 661.65,
+        "x1": 208.29,
+        "y1": 669.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "SB0PTMUPI-635662563258-PAYMENTFROM",
+        "x": 72.03,
+        "y": 678.85,
+        "x1": 231.82,
+        "y1": 686.85,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "PHON",
+        "x": 68.03,
+        "y": 696.05,
+        "x1": 89.81,
+        "y1": 704.05,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "E",
+        "x": 72.03,
+        "y": 713.25,
+        "x1": 76.92,
+        "y1": 721.25,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "PageNo.:2",
+        "x": 292.03,
+        "y": 19.15,
+        "x1": 331.59,
+        "y1": 27.15,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "MR.",
+        "x": 34.02,
+        "y": 90.82,
+        "x1": 48.46,
+        "y1": 98.82,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KANALAHARSHAVARDHANREDDY",
+        "x": 58.46,
+        "y": 90.82,
+        "x1": 196.66,
+        "y1": 98.82,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "11THFLOOR,BB11404GODREJ,24SY",
+        "x": 34.02,
+        "y": 102.45,
+        "x1": 174.46,
+        "y1": 110.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "NO118AND139ANEKAL,SARJAPURA",
+        "x": 34.02,
+        "y": 114.09,
+        "x1": 177.56,
+        "y1": 122.09,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "HOBLICHAMBENAHALLI",
+        "x": 34.02,
+        "y": 125.72,
+        "x1": 130.22,
+        "y1": 133.72,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "BENGALURU562125",
+        "x": 34.02,
+        "y": 137.35,
+        "x1": 109.34,
+        "y1": 145.35,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KARNATAKAINDIA",
+        "x": 34.02,
+        "y": 148.99,
+        "x1": 109.33,
+        "y1": 156.99,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "JOINTHOLDERS:",
+        "x": 34.02,
+        "y": 166.29,
+        "x1": 99.34,
+        "y1": 174.29,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Nomination:",
+        "x": 34.02,
+        "y": 192.87,
+        "x1": 76.46,
+        "y1": 200.87,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KNagaMuniReddy",
+        "x": 80.46,
+        "y": 192.87,
+        "x1": 145.34,
+        "y1": 200.87,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "26/03/26",
+        "x": 33.68,
+        "y": 730.45,
+        "x1": 62.13,
+        "y1": 738.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "UPI-MOOLIDIWAKAR",
+        "x": 72.03,
+        "y": 730.45,
+        "x1": 154.46,
+        "y1": 738.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0000714545291103",
+        "x": 288.6,
+        "y": 730.45,
+        "x1": 352.6,
+        "y1": 738.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "26/03/26",
+        "x": 362.5,
+        "y": 730.45,
+        "x1": 390.95,
+        "y1": 738.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "2,000.00",
+        "x": 442.24,
+        "y": 730.45,
+        "x1": 470.24,
+        "y1": 738.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "487,218.86",
+        "x": 590.71,
+        "y": 730.45,
+        "x1": 626.71,
+        "y1": 738.45,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "REDDY-9989275308-3@YBL",
+        "x": 68.03,
+        "y": 747.65,
+        "x1": 168.28,
+        "y1": 755.65,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "-ANDB0CGGBHO-714545291103-PAYMENTFROM",
+        "x": 72.03,
+        "y": 764.85,
+        "x1": 251.8,
+        "y1": 772.85,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Statementof",
+        "x": 340.16,
+        "y": 212.71,
+        "x1": 401.15,
+        "y1": 224.71,
+        "font": "Times-Roman",
+        "size": 12.0,
+        "color": "#000000"
+      },
+      {
+        "text": "account",
+        "x": 404.15,
+        "y": 212.71,
+        "x1": 441.47,
+        "y1": 224.71,
+        "font": "Times-Roman",
+        "size": 12.0,
+        "color": "#000000"
+      },
+      {
+        "text": "AccountBranch",
+        "x": 340.16,
+        "y": 52.5,
+        "x1": 392.37,
+        "y1": 60.5,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 52.5,
+        "x1": 399.07,
+        "y1": 60.5,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KORAMANGALA4THBLOCK",
+        "x": 402.52,
+        "y": 52.5,
+        "x1": 511.84,
+        "y1": 60.5,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Address",
+        "x": 340.16,
+        "y": 61.2,
+        "x1": 366.37,
+        "y1": 69.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 61.2,
+        "x1": 399.07,
+        "y1": 69.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "WARDNO.151,80FEETROAD,4THBLOCK",
+        "x": 402.52,
+        "y": 61.2,
+        "x1": 558.06,
+        "y1": 69.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KORAMANGALA,BANGALORE560034",
+        "x": 402.52,
+        "y": 69.9,
+        "x1": 545.39,
+        "y1": 77.9,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "LANDMARKNEXTTOSTARBUCKSCAFE",
+        "x": 402.52,
+        "y": 78.6,
+        "x1": 556.29,
+        "y1": 86.6,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "City",
+        "x": 340.16,
+        "y": 87.3,
+        "x1": 353.94,
+        "y1": 95.3,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 87.3,
+        "x1": 399.07,
+        "y1": 95.3,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "BENGALURU560034",
+        "x": 402.52,
+        "y": 87.3,
+        "x1": 477.85,
+        "y1": 95.3,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "State",
+        "x": 340.16,
+        "y": 96.0,
+        "x1": 356.16,
+        "y1": 104.0,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 96.0,
+        "x1": 399.07,
+        "y1": 104.0,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "KARNATAKA",
+        "x": 402.52,
+        "y": 96.0,
+        "x1": 453.17,
+        "y1": 104.0,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Phoneno.",
+        "x": 340.16,
+        "y": 104.7,
+        "x1": 372.16,
+        "y1": 112.7,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 104.7,
+        "x1": 399.07,
+        "y1": 112.7,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "18002600/18001600",
+        "x": 402.52,
+        "y": 104.7,
+        "x1": 468.74,
+        "y1": 112.7,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "ODLimit",
+        "x": 340.16,
+        "y": 113.4,
+        "x1": 371.49,
+        "y1": 121.4,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 113.4,
+        "x1": 399.07,
+        "y1": 121.4,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "0.00",
+        "x": 402.52,
+        "y": 113.4,
+        "x1": 416.52,
+        "y1": 121.4,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Currency",
+        "x": 340.16,
+        "y": 122.1,
+        "x1": 369.92,
+        "y1": 130.1,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 122.1,
+        "x1": 399.07,
+        "y1": 130.1,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "INR",
+        "x": 402.52,
+        "y": 122.1,
+        "x1": 416.29,
+        "y1": 130.1,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Email",
+        "x": 340.16,
+        "y": 130.8,
+        "x1": 359.27,
+        "y1": 138.8,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 130.8,
+        "x1": 399.07,
+        "y1": 138.8,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "kanalahvr@gmail.com",
+        "x": 402.52,
+        "y": 130.8,
+        "x1": 475.43,
+        "y1": 138.8,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "CustID",
+        "x": 340.16,
+        "y": 139.5,
+        "x1": 365.27,
+        "y1": 147.5,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 139.5,
+        "x1": 399.07,
+        "y1": 147.5,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "178714441",
+        "x": 402.52,
+        "y": 139.5,
+        "x1": 438.52,
+        "y1": 147.5,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "AccountNo",
+        "x": 340.16,
+        "y": 148.2,
+        "x1": 379.04,
+        "y1": 156.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 148.2,
+        "x1": 399.07,
+        "y1": 156.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "50100462754065",
+        "x": 402.52,
+        "y": 148.2,
+        "x1": 458.52,
+        "y1": 156.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "VIRTUALIMPERIA",
+        "x": 464.52,
+        "y": 148.2,
+        "x1": 534.51,
+        "y1": 156.2,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "A/COpenDate",
+        "x": 340.16,
+        "y": 156.9,
+        "x1": 389.93,
+        "y1": 164.9,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 156.9,
+        "x1": 399.07,
+        "y1": 164.9,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "08/10/2021",
+        "x": 402.52,
+        "y": 156.9,
+        "x1": 438.97,
+        "y1": 164.9,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "AccountStatus",
+        "x": 340.16,
+        "y": 165.6,
+        "x1": 388.82,
+        "y1": 173.6,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 165.6,
+        "x1": 399.07,
+        "y1": 173.6,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Regular",
+        "x": 402.52,
+        "y": 165.6,
+        "x1": 427.85,
+        "y1": 173.6,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "From",
+        "x": 34.02,
+        "y": 215.54,
+        "x1": 51.35,
+        "y1": 223.54,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 55.35,
+        "y": 215.54,
+        "x1": 57.58,
+        "y1": 223.54,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "20/03/2026",
+        "x": 61.58,
+        "y": 215.54,
+        "x1": 98.02,
+        "y1": 223.54,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "To",
+        "x": 154.02,
+        "y": 215.54,
+        "x1": 162.91,
+        "y1": 223.54,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 166.91,
+        "y": 215.54,
+        "x1": 169.13,
+        "y1": 223.54,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "29/03/2026",
+        "x": 173.13,
+        "y": 215.54,
+        "x1": 209.58,
+        "y1": 223.54,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "RTGS/NEFTIFSC",
+        "x": 340.16,
+        "y": 174.72,
+        "x1": 396.34,
+        "y1": 182.02,
+        "font": "Times-Roman",
+        "size": 7.3,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 174.3,
+        "x1": 399.07,
+        "y1": 182.3,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "HDFC0002777",
+        "x": 402.52,
+        "y": 174.3,
+        "x1": 451.85,
+        "y1": 182.3,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "MICR:560240076",
+        "x": 475.85,
+        "y": 174.3,
+        "x1": 538.53,
+        "y1": 182.3,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "BranchCode",
+        "x": 340.16,
+        "y": 183.07,
+        "x1": 382.15,
+        "y1": 191.07,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 183.07,
+        "x1": 399.07,
+        "y1": 191.07,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "2777",
+        "x": 402.52,
+        "y": 183.07,
+        "x1": 418.52,
+        "y1": 191.07,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "AccountType",
+        "x": 340.16,
+        "y": 191.77,
+        "x1": 385.7,
+        "y1": 199.77,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": ":",
+        "x": 396.85,
+        "y": 191.77,
+        "x1": 399.07,
+        "y1": 199.77,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "INSTANTSAVINGSALARYPREMIUM(161)",
+        "x": 402.52,
+        "y": 191.77,
+        "x1": 559.61,
+        "y1": 199.77,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "HDFCBANKLIMITED",
+        "x": 28.35,
+        "y": 784.85,
+        "x1": 124.35,
+        "y1": 793.85,
+        "font": "Times-Bold",
+        "size": 9.0,
+        "color": "#000000"
+      },
+      {
+        "text": "*Closingbalanceincludesfundsearmarkedforholdandunclearedfunds",
+        "x": 28.35,
+        "y": 794.94,
+        "x1": 261.85,
+        "y1": 802.94,
+        "font": "Times-Roman",
+        "size": 8.0,
+        "color": "#000000"
+      },
+      {
+        "text": "Contentsofthisstatementwillbeconsideredcorrectifnoerrorisreportedwithin30daysofreceiptofstatement.TheaddressonthisstatementisthatonrecordwiththeBankasatthedayofrequesting",
+        "x": 28.35,
+        "y": 804.24,
+        "x1": 592.34,
+        "y1": 811.24,
+        "font": "Times-Roman",
+        "size": 7.0,
+        "color": "#000000"
+      },
+      {
+        "text": "thisstatement.",
+        "x": 28.35,
+        "y": 811.54,
+        "x1": 68.79,
+        "y1": 818.54,
+        "font": "Times-Roman",
+        "size": 7.0,
+        "color": "#000000"
+      },
+      {
+        "text": "StateaccountbranchGSTN:29AAACH2702H1ZW",
+        "x": 28.35,
+        "y": 818.79,
+        "x1": 182.15,
+        "y1": 825.79,
+        "font": "Times-Bold",
+        "size": 7.0,
+        "color": "#000000"
+      },
+      {
+        "text": "HDFCBankGSTINnumberdetailsareavailableathttps://www.hdfcbank.com/personal/making-payments/online-tax-payment/goods-and-service-tax.",
+        "x": 28.35,
+        "y": 826.0,
+        "x1": 451.59,
+        "y1": 833.0,
+        "font": "Times-Roman",
+        "size": 7.0,
+        "color": "#000000"
+      },
+      {
+        "text": "RegisteredOfficeAddress:HDFCBankHouse,SenapatiBapatMarg,LowerParel,Mumbai400013",
+        "x": 28.35,
+        "y": 833.3,
+        "x1": 306.36,
+        "y1": 840.3,
+        "font": "Times-Roman",
+        "size": 7.0,
+        "color": "#000000"
+      }
+    ],
+    "lines": [],
+    "rects": [
+      {
+        "x0": 28.35,
+        "y0": 226.88,
+        "x1": 630.71,
+        "y1": 227.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 27.78,
+        "y0": 226.88,
+        "x1": 28.35,
+        "y1": 778.41,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 630.71,
+        "y0": 226.88,
+        "x1": 631.27,
+        "y1": 778.41,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 28.35,
+        "y0": 777.85,
+        "x1": 630.71,
+        "y1": 778.41,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 227.45,
+        "x1": 68.03,
+        "y1": 261.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 227.45,
+        "x1": 255.12,
+        "y1": 261.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 227.45,
+        "x1": 357.16,
+        "y1": 261.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 227.45,
+        "x1": 396.85,
+        "y1": 261.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 227.45,
+        "x1": 474.8,
+        "y1": 261.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 227.45,
+        "x1": 552.75,
+        "y1": 261.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 261.85,
+        "x1": 68.03,
+        "y1": 279.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 261.85,
+        "x1": 255.12,
+        "y1": 279.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 261.85,
+        "x1": 357.16,
+        "y1": 279.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 261.85,
+        "x1": 396.85,
+        "y1": 279.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 261.85,
+        "x1": 474.8,
+        "y1": 279.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 261.85,
+        "x1": 552.75,
+        "y1": 279.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 279.05,
+        "x1": 68.03,
+        "y1": 296.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 279.05,
+        "x1": 255.12,
+        "y1": 296.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 279.05,
+        "x1": 357.16,
+        "y1": 296.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 279.05,
+        "x1": 396.85,
+        "y1": 296.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 279.05,
+        "x1": 474.8,
+        "y1": 296.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 279.05,
+        "x1": 552.75,
+        "y1": 296.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 296.25,
+        "x1": 68.03,
+        "y1": 330.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 296.25,
+        "x1": 255.12,
+        "y1": 330.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 296.25,
+        "x1": 357.16,
+        "y1": 330.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 296.25,
+        "x1": 396.85,
+        "y1": 330.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 296.25,
+        "x1": 474.8,
+        "y1": 330.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 296.25,
+        "x1": 552.75,
+        "y1": 330.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 330.65,
+        "x1": 68.03,
+        "y1": 347.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 330.65,
+        "x1": 255.12,
+        "y1": 347.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 330.65,
+        "x1": 357.16,
+        "y1": 347.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 330.65,
+        "x1": 396.85,
+        "y1": 347.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 330.65,
+        "x1": 474.8,
+        "y1": 347.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 330.65,
+        "x1": 552.75,
+        "y1": 347.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 347.85,
+        "x1": 68.03,
+        "y1": 382.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 347.85,
+        "x1": 255.12,
+        "y1": 382.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 347.85,
+        "x1": 357.16,
+        "y1": 382.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 347.85,
+        "x1": 396.85,
+        "y1": 382.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 347.85,
+        "x1": 474.8,
+        "y1": 382.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 347.85,
+        "x1": 552.75,
+        "y1": 382.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 382.25,
+        "x1": 68.03,
+        "y1": 399.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 382.25,
+        "x1": 255.12,
+        "y1": 399.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 382.25,
+        "x1": 357.16,
+        "y1": 399.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 382.25,
+        "x1": 396.85,
+        "y1": 399.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 382.25,
+        "x1": 474.8,
+        "y1": 399.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 382.25,
+        "x1": 552.75,
+        "y1": 399.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 399.45,
+        "x1": 68.03,
+        "y1": 416.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 399.45,
+        "x1": 255.12,
+        "y1": 416.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 399.45,
+        "x1": 357.16,
+        "y1": 416.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 399.45,
+        "x1": 396.85,
+        "y1": 416.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 399.45,
+        "x1": 474.8,
+        "y1": 416.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 399.45,
+        "x1": 552.75,
+        "y1": 416.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 416.65,
+        "x1": 68.03,
+        "y1": 451.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 416.65,
+        "x1": 255.12,
+        "y1": 451.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 416.65,
+        "x1": 357.16,
+        "y1": 451.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 416.65,
+        "x1": 396.85,
+        "y1": 451.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 416.65,
+        "x1": 474.8,
+        "y1": 451.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 416.65,
+        "x1": 552.75,
+        "y1": 451.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 451.05,
+        "x1": 68.03,
+        "y1": 468.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 451.05,
+        "x1": 255.12,
+        "y1": 468.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 451.05,
+        "x1": 357.16,
+        "y1": 468.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 451.05,
+        "x1": 396.85,
+        "y1": 468.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 451.05,
+        "x1": 474.8,
+        "y1": 468.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 451.05,
+        "x1": 552.75,
+        "y1": 468.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 468.25,
+        "x1": 68.03,
+        "y1": 485.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 468.25,
+        "x1": 255.12,
+        "y1": 485.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 468.25,
+        "x1": 357.16,
+        "y1": 485.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 468.25,
+        "x1": 396.85,
+        "y1": 485.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 468.25,
+        "x1": 474.8,
+        "y1": 485.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 468.25,
+        "x1": 552.75,
+        "y1": 485.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 485.45,
+        "x1": 68.03,
+        "y1": 519.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 485.45,
+        "x1": 255.12,
+        "y1": 519.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 485.45,
+        "x1": 357.16,
+        "y1": 519.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 485.45,
+        "x1": 396.85,
+        "y1": 519.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 485.45,
+        "x1": 474.8,
+        "y1": 519.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 485.45,
+        "x1": 552.75,
+        "y1": 519.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 519.85,
+        "x1": 68.03,
+        "y1": 537.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 519.85,
+        "x1": 255.12,
+        "y1": 537.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 519.85,
+        "x1": 357.16,
+        "y1": 537.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 519.85,
+        "x1": 396.85,
+        "y1": 537.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 519.85,
+        "x1": 474.8,
+        "y1": 537.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 519.85,
+        "x1": 552.75,
+        "y1": 537.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 537.05,
+        "x1": 68.03,
+        "y1": 554.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 537.05,
+        "x1": 255.12,
+        "y1": 554.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 537.05,
+        "x1": 357.16,
+        "y1": 554.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 537.05,
+        "x1": 396.85,
+        "y1": 554.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 537.05,
+        "x1": 474.8,
+        "y1": 554.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 537.05,
+        "x1": 552.75,
+        "y1": 554.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 554.25,
+        "x1": 68.03,
+        "y1": 571.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 554.25,
+        "x1": 255.12,
+        "y1": 571.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 554.25,
+        "x1": 357.16,
+        "y1": 571.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 554.25,
+        "x1": 396.85,
+        "y1": 571.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 554.25,
+        "x1": 474.8,
+        "y1": 571.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 554.25,
+        "x1": 552.75,
+        "y1": 571.45,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 571.45,
+        "x1": 68.03,
+        "y1": 605.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 571.45,
+        "x1": 255.12,
+        "y1": 605.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 571.45,
+        "x1": 357.16,
+        "y1": 605.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 571.45,
+        "x1": 396.85,
+        "y1": 605.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 571.45,
+        "x1": 474.8,
+        "y1": 605.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 571.45,
+        "x1": 552.75,
+        "y1": 605.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 605.85,
+        "x1": 68.03,
+        "y1": 623.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 605.85,
+        "x1": 255.12,
+        "y1": 623.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 605.85,
+        "x1": 357.16,
+        "y1": 623.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 605.85,
+        "x1": 396.85,
+        "y1": 623.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 605.85,
+        "x1": 474.8,
+        "y1": 623.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 605.85,
+        "x1": 552.75,
+        "y1": 623.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 623.05,
+        "x1": 68.03,
+        "y1": 640.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 623.05,
+        "x1": 255.12,
+        "y1": 640.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 623.05,
+        "x1": 357.16,
+        "y1": 640.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 623.05,
+        "x1": 396.85,
+        "y1": 640.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 623.05,
+        "x1": 474.8,
+        "y1": 640.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 623.05,
+        "x1": 552.75,
+        "y1": 640.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 640.25,
+        "x1": 68.03,
+        "y1": 674.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 640.25,
+        "x1": 255.12,
+        "y1": 674.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 640.25,
+        "x1": 357.16,
+        "y1": 674.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 640.25,
+        "x1": 396.85,
+        "y1": 674.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 640.25,
+        "x1": 474.8,
+        "y1": 674.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 640.25,
+        "x1": 552.75,
+        "y1": 674.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 674.65,
+        "x1": 68.03,
+        "y1": 709.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 674.65,
+        "x1": 255.12,
+        "y1": 709.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 674.65,
+        "x1": 357.16,
+        "y1": 709.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 674.65,
+        "x1": 396.85,
+        "y1": 709.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 674.65,
+        "x1": 474.8,
+        "y1": 709.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 674.65,
+        "x1": 552.75,
+        "y1": 709.05,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 709.05,
+        "x1": 68.03,
+        "y1": 726.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 709.05,
+        "x1": 255.12,
+        "y1": 726.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 709.05,
+        "x1": 357.16,
+        "y1": 726.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 709.05,
+        "x1": 396.85,
+        "y1": 726.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 709.05,
+        "x1": 474.8,
+        "y1": 726.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 709.05,
+        "x1": 552.75,
+        "y1": 726.25,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 726.25,
+        "x1": 68.03,
+        "y1": 760.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 726.25,
+        "x1": 255.12,
+        "y1": 760.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 726.25,
+        "x1": 357.16,
+        "y1": 760.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 726.25,
+        "x1": 396.85,
+        "y1": 760.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 726.25,
+        "x1": 474.8,
+        "y1": 760.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 726.25,
+        "x1": 552.75,
+        "y1": 760.65,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 67.47,
+        "y0": 760.65,
+        "x1": 68.03,
+        "y1": 777.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 254.55,
+        "y0": 760.65,
+        "x1": 255.12,
+        "y1": 777.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 356.6,
+        "y0": 760.65,
+        "x1": 357.16,
+        "y1": 777.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 396.28,
+        "y0": 760.65,
+        "x1": 396.85,
+        "y1": 777.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 474.24,
+        "y0": 760.65,
+        "x1": 474.8,
+        "y1": 777.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 552.19,
+        "y0": 760.65,
+        "x1": 552.75,
+        "y1": 777.85,
+        "stroke_color": 0,
+        "fill_color": 0.50196,
+        "width": 0
+      },
+      {
+        "x0": 28.35,
+        "y0": 81.18,
+        "x1": 311.81,
+        "y1": 82.32,
+        "stroke_color": 0,
+        "fill_color": 0.0,
+        "width": 0
+      },
+      {
+        "x0": 27.21,
+        "y0": 81.18,
+        "x1": 28.35,
+        "y1": 191.16,
+        "stroke_color": 0,
+        "fill_color": 0.0,
+        "width": 0
+      },
+      {
+        "x0": 311.81,
+        "y0": 81.18,
+        "x1": 312.94,
+        "y1": 191.16,
+        "stroke_color": 0,
+        "fill_color": 0.0,
+        "width": 0
+      },
+      {
+        "x0": 28.35,
+        "y0": 190.03,
+        "x1": 311.81,
+        "y1": 191.16,
+        "stroke_color": 0,
+        "fill_color": 0.0,
+        "width": 0
+      },
+      {
+        "x0": 340.16,
+        "y0": 51.13,
+        "x1": 623.62,
+        "y1": 52.55,
+        "stroke_color": 0,
+        "fill_color": 1.0,
+        "width": 0
+      },
+      {
+        "x0": 338.74,
+        "y0": 51.13,
+        "x1": 340.16,
+        "y1": 201.94,
+        "stroke_color": 0,
+        "fill_color": 1.0,
+        "width": 0
+      },
+      {
+        "x0": 623.62,
+        "y0": 51.13,
+        "x1": 625.04,
+        "y1": 201.94,
+        "stroke_color": 0,
+        "fill_color": 1.0,
+        "width": 0
+      },
+      {
+        "x0": 340.16,
+        "y0": 200.52,
+        "x1": 623.62,
+        "y1": 201.94,
+        "stroke_color": 0,
+        "fill_color": 1.0,
+        "width": 0
+      }
+    ],
+    "images": [
+      {
+        "x": 28.35,
+        "y": 35.33,
+        "width": 145.0,
+        "height": 32.0,
+        "name": "Im1",
+        "file": "/Users/kanalaharshareddy/Library/CloudStorage/OneDrive-Personal/Applications/BankStatementGenerator_V2/data/_bank_setup/template_images/page1_img0.jpeg"
+      }
+    ],
+    "vector_regions": [
+      {
+        "x": 26.78,
+        "y": 225.88,
+        "width": 605.49,
+        "height": 553.53,
+        "file": "/Users/kanalaharshareddy/Library/CloudStorage/OneDrive-Personal/Applications/BankStatementGenerator_V2/data/_bank_setup/template_images/page2_vector0.png",
+        "type": "vector_region"
+      },
+      {
+        "x": 26.21,
+        "y": 80.18,
+        "width": 287.73,
+        "height": 111.98,
+        "file": "/Users/kanalaharshareddy/Library/CloudStorage/OneDrive-Personal/Applications/BankStatementGenerator_V2/data/_bank_setup/template_images/page2_vector1.png",
+        "type": "vector_region"
+      }
+    ]
+  },
+  "last_page_footer": {
+    "gap_from_last_txn": 58.4,
+    "spans": [
+      {
+        "text": "Generated On:",
+        "x": 81.8,
+        "y": 284.9,
+        "size": 8.0,
+        "color": "#000000",
+        "font": "Times-Bold",
+        "y_offset": -0.0
+      },
+      {
+        "text": " ",
+        "x": 133.1,
+        "y": 284.9,
+        "size": 8.0,
+        "color": "#000000",
+        "font": "Times-Bold",
+        "y_offset": -0.0
+      },
+      {
+        "text": "29-Mar-2026 14:32",
+        "x": 137.1,
+        "y": 284.9,
+        "size": 8.0,
+        "color": "#000000",
+        "font": "Times-Bold",
+        "y_offset": -0.0
+      },
+      {
+        "text": "Generated By: 178714441",
+        "x": 262.4,
+        "y": 284.9,
+        "size": 8.0,
+        "color": "#000000",
+        "font": "Times-Bold",
+        "y_offset": -0.0
+      },
+      {
+        "text": "Requesting Branch Code: NET",
+        "x": 441.0,
+        "y": 284.9,
+        "size": 8.0,
+        "color": "#000000",
+        "font": "Times-Bold",
+        "y_offset": -0.0
+      },
+      {
+        "text": "This is a computer generated statement and does",
+        "x": 474.8,
+        "y": 346.1,
+        "size": 8.0,
+        "color": "#000000",
+        "font": "Times-Roman",
+        "y_offset": 61.2
+      },
+      {
+        "text": "not require signature.",
+        "x": 474.8,
+        "y": 363.3,
+        "size": 8.0,
+        "color": "#000000",
+        "font": "Times-Roman",
+        "y_offset": 78.4
+      },
+      {
+        "text": "HDFC BANK LIMITED",
+        "x": 28.3,
+        "y": 782.5,
+        "size": 9.0,
+        "color": "#0000FF",
+        "font": "Times-Bold",
+        "y_offset": 497.6
+      }
+    ],
+    "border": null,
+    "total_height": 517.6
+  }
+}

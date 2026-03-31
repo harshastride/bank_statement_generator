@@ -1,0 +1,136 @@
+{
+  "bankName": "HDFC Bank",
+  "pageWidth": 638,
+  "pageHeight": 842,
+  "logo": {
+    "x": 28.7,
+    "y": 35.3,
+    "width": 145,
+    "height": 32,
+    "src": ""
+  },
+  "fonts": {
+    "default":        { "family": "Times New Roman, Times, serif", "size": 8,  "weight": 400, "color": "#000000" },
+    "bold":           { "family": "Times New Roman, Times, serif", "size": 8,  "weight": 700, "color": "#000000" },
+    "title":          { "family": "Times New Roman, Times, serif", "size": 12, "weight": 400, "color": "#000000" },
+    "footerHeading":  { "family": "Times New Roman, Times, serif", "size": 9,  "weight": 700, "color": "#2746d8" },
+    "footerNote":     { "family": "Times New Roman, Times, serif", "size": 8,  "weight": 400, "color": "#2746d8" },
+    "footerGstn":     { "family": "Times New Roman, Times, serif", "size": 7,  "weight": 700, "color": "#000000" },
+    "footer":         { "family": "Times New Roman, Times, serif", "size": 7,  "weight": 400, "color": "#000000" }
+  },
+  "customerBox": {
+    "x0": 27.21,
+    "y0": 81.18,
+    "x1": 312.94,
+    "y1": 191.16,
+    "borderWidth": 1.14
+  },
+  "textToBorderGap": 4.2,
+  "header": {
+    "pageNumber": { "x": 292.03, "y": 19.15 },
+    "title": { "x": 340.16, "y": 212.71, "text": "Statement of account", "font": "title" },
+    "left": [
+      { "x": 34.02, "y": 90.82,  "role": "customer_name" },
+      { "x": 34.02, "y": 102.45, "role": "address_line_1" },
+      { "x": 34.02, "y": 114.09, "role": "address_line_2" },
+      { "x": 34.02, "y": 125.72, "role": "city_state" },
+      { "x": 34.02, "y": 137.35, "role": "pin" },
+      { "x": 34.02, "y": 148.99, "role": "state_country" },
+      { "x": 34.02, "y": 166.29, "text": "JOINT HOLDERS :" },
+      { "x": 80.46, "y": 166.29, "role": "joint_holders" },
+      { "x": 34.02, "y": 192.87, "text": "Nomination :" },
+      { "x": 80.46, "y": 192.87, "role": "nominee" }
+    ],
+    "right": [
+      { "label": "Account Branch",  "y": 52.5,   "role": "branch" },
+      { "label": "Address",         "y": 61.2,   "role": "branch_address_1" },
+      {                              "y": 69.9,   "role": "branch_address_2" },
+      {                              "y": 78.6,   "role": "branch_address_3" },
+      { "label": "City",            "y": 87.3,   "role": "branch_city" },
+      { "label": "State",           "y": 96,     "role": "branch_state" },
+      { "label": "Phone no.",       "y": 104.7,  "role": "phone" },
+      { "label": "OD Limit",        "y": 113.4,  "role": "overdraft" },
+      { "label": "Currency",        "y": 122.1,  "role": "currency" },
+      { "label": "Email",           "y": 130.8,  "role": "email" },
+      { "label": "Cust ID",         "y": 139.5,  "role": "cust_id" },
+      { "label": "Account No",      "y": 148.2,  "role": "account_number", "trailing_role": "account_variant", "trailingX": 464.52 },
+      { "label": "A/C Open Date",   "y": 156.9,  "role": "ac_open_date" },
+      { "label": "Account Status",  "y": 165.6,  "role": "account_status" },
+      { "label": "RTGS/NEFT IFSC",  "y": 174.3,  "role": "ifsc", "trailing_role": "micr_display", "trailingX": 475.85 },
+      { "label": "Branch Code",     "y": 183.07, "role": "branch_code" },
+      { "label": "Account Type",    "y": 191.77, "role": "account_type" }
+    ],
+    "rightLabelX": 340.16,
+    "rightColonX": 401.85,
+    "rightValueX": 407.52,
+    "fromLabelX": 34.02,
+    "fromColonX": 55.35,
+    "fromDateX": 60.9,
+    "toLabelX": 154.02,
+    "toColonX": 166.91,
+    "toDateX": 172.3,
+    "fromToY": 215.54
+  },
+  "columns": [
+    { "name": "Date",            "role": "date",        "x": 33.68, "align": "left",  "headerX": 39.91  },
+    { "name": "Narration",       "role": "description", "x": 72.03, "align": "left",  "headerX": 144.18 },
+    { "name": "Chq./Ref.No.",    "role": "ref",         "x": 288.6, "align": "left",  "headerX": 283.52 },
+    { "name": "Value Dt",        "role": "value_date",  "x": 362.5, "align": "left",  "headerX": 361.5  },
+    { "name": "Withdrawal Amt.", "role": "debit",       "x": 470.24,"align": "right", "headerX": 405.32 },
+    { "name": "Deposit Amt.",    "role": "credit",      "x": 548.19,"align": "right", "headerX": 491.05 },
+    { "name": "Closing Balance", "role": "balance",     "x": 626.71,"align": "right", "headerX": 564.28 }
+  ],
+  "colBounds": [27.78, 67.47, 254.55, 356.6, 396.28, 474.24, 552.19, 630.71],
+  "table": {
+    "page1Top": 228.88,
+    "page1HeaderTextY": 233.59,
+    "page1HeaderHeight": 17.61,
+    "page1FirstContentY": 251.26,
+    "page1Bottom": 763.06,
+    "contTop": 226.88,
+    "contFirstContentY": 231.65,
+    "contBottom": 777.85,
+    "contentBottom": 764.85,
+    "lineHeight": 17.2,
+    "firstLineCapacity": 30,
+    "continuationLineCapacity": 31,
+    "fillColor": "#dffbff",
+    "borderColor": "#808080",
+    "borderWidth": 0.57
+  },
+  "footer": {
+    "topY": 784.85,
+    "fields": [
+      { "x": 28.35, "y": 784.85, "text": "HDFC BANK LIMITED",                                                                                                "font": "footerHeading" },
+      { "x": 28.35, "y": 794.94, "text": "*Closing balance includes funds earmarked for hold and uncleared funds",                                             "font": "footerNote" },
+      { "x": 28.35, "y": 804.24, "text": "Contents of this statement will be considered correct if no error is reported within 30 days of receipt of statement.The address on this statement is that on record with the Bank as at the day of requesting", "font": "footer" },
+      { "x": 28.35, "y": 811.54, "text": "this statement.",                                                                                                    "font": "footer" },
+      { "x": 28.35, "y": 818.79, "text": "State account branch GSTN:29AAACH2702H1ZW",                                                                          "font": "footerGstn" },
+      { "x": 28.35, "y": 826,    "text": "HDFC Bank GSTIN number details are available at https://www.hdfcbank.com/personal/making-payments/online-tax-payment/goods-and-service-tax.", "font": "footer" },
+      { "x": 28.35, "y": 833.3,  "text": "Registered Office Address: HDFC Bank House,Senapati Bapat Marg,Lower Parel,Mumbai 400013",                           "font": "footer" }
+    ]
+  },
+  "summary": {
+    "carryTitleX": 63,
+    "carryGapFromTable": 9.05,
+    "carryLabelsOffset": 12.7,
+    "carryReservedHeight": 54.4,
+    "valuesY": 253,
+    "generatedY": 343,
+    "signatureX": 465,
+    "signatureY": 405,
+    "labels": [
+      { "label": "Opening Balance", "x": 128 },
+      { "label": "Dr Count",        "x": 287 },
+      { "label": "Cr Count",        "x": 374 },
+      { "label": "Debits",          "x": 455 },
+      { "label": "Credits",         "x": 535 },
+      { "label": "Closing Bal",     "x": 612 }
+    ],
+    "generated": [
+      { "x": 72,  "role": "generated_on",             "prefix": "Generated On: " },
+      { "x": 253, "role": "generated_by",             "prefix": "Generated By: " },
+      { "x": 465, "role": "requesting_branch_code",   "prefix": "Requesting Branch Code: " }
+    ]
+  }
+}

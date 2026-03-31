@@ -1,0 +1,1150 @@
+{
+    "page_width": 594.96,
+    "page_height": 841.92,
+    "fonts": {
+        "browser_chrome": {
+            "font": "AAAAAA+ArialMT",
+            "size": 7.99,
+            "color": "#000000"
+        },
+        "title": {
+            "font": "AAAAAA+ArialMT",
+            "size": 11.7,
+            "color": "#D40D0D"
+        },
+        "account_type": {
+            "font": "BAAAAA+ArialMT",
+            "size": 11.7,
+            "color": "#333333"
+        },
+        "balance_large": {
+            "font": "AAAAAA+ArialMT",
+            "size": 11.7,
+            "color": "#333333"
+        },
+        "label": {
+            "font": "AAAAAA+ArialMT",
+            "size": 7.45,
+            "color": "#666666"
+        },
+        "value": {
+            "font": "AAAAAA+ArialMT",
+            "size": 7.45,
+            "color": "#333333"
+        },
+        "name": {
+            "font": "AAAAAA+ArialMT",
+            "size": 7.45,
+            "color": "#212529"
+        },
+        "heading": {
+            "font": "BAAAAA+ArialMT",
+            "size": 10.64,
+            "color": "#212529"
+        },
+        "table_header": {
+            "font": "CAAAAA+Arial-BoldMT",
+            "size": 7.45,
+            "color": "#333333"
+        },
+        "transaction": {
+            "font": "AAAAAA+ArialMT",
+            "size": 8.51,
+            "color": "#333333"
+        },
+        "currency": {
+            "font": "AAAAAA+ArialMT",
+            "size": 7.45,
+            "color": "#666666"
+        },
+        "disclaimer": {
+            "font": "AAAAAA+ArialMT",
+            "size": 7.45,
+            "color": "#666666"
+        },
+        "link": {
+            "font": "AAAAAA+ArialMT",
+            "size": 7.45,
+            "color": "#666666"
+        }
+    },
+    "columns": [
+        {
+            "name": "Date",
+            "role": "date",
+            "x": 53.92,
+            "x1": 133.2,
+            "align": "left",
+            "header_x": 53.92,
+            "font": {
+                "font": "AAAAAA+ArialMT",
+                "size": 8.51,
+                "color": "#333333"
+            }
+        },
+        {
+            "name": "Description",
+            "role": "description",
+            "x": 138.35,
+            "x1": 342.82,
+            "align": "left",
+            "header_x": 138.35,
+            "font": {
+                "font": "AAAAAA+ArialMT",
+                "size": 8.51,
+                "color": "#333333"
+            }
+        },
+        {
+            "name": "Credit",
+            "role": "credit",
+            "x": 337.34,
+            "x1": 342.82,
+            "align": "right",
+            "header_x": 315.82,
+            "font": {
+                "font": "AAAAAA+ArialMT",
+                "size": 8.51,
+                "color": "#333333"
+            }
+        },
+        {
+            "name": "Debit",
+            "role": "debit",
+            "x": 437.16,
+            "x1": 442.31,
+            "align": "right",
+            "header_x": 418.54,
+            "font": {
+                "font": "AAAAAA+ArialMT",
+                "size": 8.51,
+                "color": "#333333"
+            }
+        },
+        {
+            "name": "Balance",
+            "role": "balance",
+            "x": 537.0,
+            "x1": 542.33,
+            "align": "right",
+            "header_x": 508.44,
+            "font": {
+                "font": "AAAAAA+ArialMT",
+                "size": 8.51,
+                "color": "#333333"
+            }
+        }
+    ],
+    "col_bounds": [
+        42.75,
+        133.2,
+        242.79,
+        342.82,
+        442.31,
+        542.33,
+        553.5
+    ],
+    "p1_table_header_y": 399.19,
+    "p1_first_content_y": 427.62,
+    "p1_table_top": 389.1,
+    "p1_table_bottom": 799.83,
+    "cont_table_top": 42.75,
+    "cont_table_bottom": 799.83,
+    "cont_header_text_y": 52.84,
+    "cont_first_content_y": 81.8,
+    "summary_row_height": 32.5,
+    "detail_line_spacing": 15.96,
+    "summary_to_detail_gap": 32.45,
+    "detail_to_next_summary": 37.77,
+    "content_bottom": 739.71,
+    "footer_y": 819.45,
+    "grid_colors": {
+        "border": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "separator": [
+            0.8706,
+            0.8863,
+            0.902
+        ]
+    },
+    "text_to_border_gap": 10.09,
+    "header_fields": [
+        {
+            "role": "__chrome__",
+            "x": 24.0,
+            "y": 15.9,
+            "font_key": "browser_chrome",
+            "template": "{print_date}, {print_time}",
+            "label": ""
+        },
+        {
+            "role": "__chrome__",
+            "x": 280.6,
+            "y": 15.9,
+            "font_key": "browser_chrome",
+            "template": "Account summary and transactions",
+            "label": ""
+        },
+        {
+            "role": "__static__",
+            "x": 42.75,
+            "y": 109.61,
+            "font_key": "title",
+            "template": "HSBC Account Statement",
+            "label": ""
+        },
+        {
+            "role": "account_type",
+            "x": 42.75,
+            "y": 125.57,
+            "font_key": "account_type",
+            "template": "{account_type}",
+            "label": "Account Type"
+        },
+        {
+            "role": "customer_name",
+            "x": 42.75,
+            "y": 148.07,
+            "font_key": "name",
+            "template": "{customer_name}",
+            "label": "Customer Name"
+        },
+        {
+            "role": "address_line_1",
+            "x": 42.75,
+            "y": 166.16,
+            "font_key": "label",
+            "template": "{address_line_1}",
+            "label": "Address Line 1"
+        },
+        {
+            "role": "address_line_2",
+            "x": 42.75,
+            "y": 183.72,
+            "font_key": "label",
+            "template": "{address_line_2}",
+            "label": "Address Line 2"
+        },
+        {
+            "role": "city_state",
+            "x": 42.75,
+            "y": 201.28,
+            "font_key": "label",
+            "template": "{city_state}",
+            "label": "City/State"
+        },
+        {
+            "role": "pin",
+            "x": 42.75,
+            "y": 218.83,
+            "font_key": "label",
+            "template": "{pin}",
+            "label": "PIN"
+        },
+        {
+            "role": "__static__",
+            "x": 42.75,
+            "y": 236.39,
+            "font_key": "label",
+            "template": "Account number:",
+            "label": ""
+        },
+        {
+            "role": "account_number",
+            "x": 104.38,
+            "y": 236.39,
+            "font_key": "value",
+            "template": "{account_number}",
+            "label": "Account Number"
+        },
+        {
+            "role": "branch",
+            "x": 42.75,
+            "y": 253.95,
+            "font_key": "value",
+            "template": "Branch Name:{branch}",
+            "label": "Branch"
+        },
+        {
+            "role": "micr",
+            "x": 42.75,
+            "y": 271.51,
+            "font_key": "label",
+            "template": "MICR Code:{micr}",
+            "label": "MICR Code"
+        },
+        {
+            "role": "ifsc",
+            "x": 42.75,
+            "y": 289.06,
+            "font_key": "value",
+            "template": "IFSC Code:{ifsc}",
+            "label": "IFSC Code"
+        },
+        {
+            "role": "nominee",
+            "x": 42.75,
+            "y": 306.62,
+            "font_key": "label",
+            "template": "Nominee Registered:{nominee}",
+            "label": "Nominee Registered"
+        },
+        {
+            "role": "current_balance_right",
+            "x": 538.0,
+            "y": 125.57,
+            "font_key": "balance_large",
+            "template": "{current_balance}",
+            "label": "Current Balance"
+        },
+        {
+            "role": "currency_label",
+            "x": 540.66,
+            "y": 128.92,
+            "font_key": "currency",
+            "template": "{currency}",
+            "label": "Currency"
+        },
+        {
+            "role": "__computed__",
+            "x": 442.47,
+            "y": 148.61,
+            "font_key": "label",
+            "template": "Available balance:{current_balance} {currency}",
+            "label": ""
+        },
+        {
+            "role": "__computed__",
+            "x": 473.01,
+            "y": 166.16,
+            "font_key": "label",
+            "template": "Overdraft limit:{overdraft} {currency}",
+            "label": ""
+        },
+        {
+            "role": "download_date",
+            "x": 418.73,
+            "y": 183.72,
+            "font_key": "label",
+            "template": "Date of statement download:{download_date}",
+            "label": "Download Date"
+        },
+        {
+            "role": "__static__",
+            "x": 42.75,
+            "y": 348.26,
+            "font_key": "heading",
+            "template": "Search results",
+            "label": ""
+        }
+    ],
+    "cont_header_fields": [
+        {
+            "text": "Date",
+            "x": 53.92,
+            "font_key": "table_header"
+        },
+        {
+            "text": "Description",
+            "x": 138.35,
+            "font_key": "table_header"
+        },
+        {
+            "text": "Credit",
+            "x": 315.82,
+            "font_key": "table_header"
+        },
+        {
+            "text": "Debit",
+            "x": 418.54,
+            "font_key": "table_header"
+        },
+        {
+            "text": "Balance",
+            "x": 508.44,
+            "font_key": "table_header"
+        }
+    ],
+    "browser_chrome": {
+        "url_text": "about:blank",
+        "title_text": "Account summary and transactions",
+        "top_y": 16.2,
+        "bottom_y": 819.45,
+        "page_num_x": 551.17
+    },
+    "has_footer": true,
+    "footer_gap": 59.74,
+    "detail_border_segments": [
+        [
+            52.33,
+            133.2
+        ],
+        [
+            133.2,
+            342.82
+        ],
+        [
+            342.82,
+            546.58
+        ]
+    ],
+    "closing_col_segments": [
+        42.75,
+        133.2,
+        242.79,
+        342.82,
+        442.31,
+        542.33,
+        553.5
+    ],
+    "header_row_rects_pattern": [
+        {
+            "x0": 42.75,
+            "x1": 133.2,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 133.2,
+            "x1": 242.79,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 242.79,
+            "x1": 342.82,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 342.82,
+            "x1": 442.31,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 442.31,
+            "x1": 542.33,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 542.33,
+            "x1": 553.5,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 43.28,
+            "x1": 133.2,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 133.2,
+            "x1": 242.79,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 242.79,
+            "x1": 342.82,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 342.82,
+            "x1": 442.31,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 442.31,
+            "x1": 542.33,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 542.33,
+            "x1": 553.5,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 42.75,
+            "x1": 43.28,
+            "y_offset": 0,
+            "height": 0,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 42.75,
+            "x1": 133.2,
+            "y_offset_from_bottom": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": true
+        },
+        {
+            "x0": 133.2,
+            "x1": 242.79,
+            "y_offset_from_bottom": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": true
+        },
+        {
+            "x0": 242.79,
+            "x1": 342.82,
+            "y_offset_from_bottom": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": true
+        },
+        {
+            "x0": 342.82,
+            "x1": 442.31,
+            "y_offset_from_bottom": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": true
+        },
+        {
+            "x0": 442.31,
+            "x1": 542.33,
+            "y_offset_from_bottom": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": true
+        },
+        {
+            "x0": 542.33,
+            "x1": 553.5,
+            "y_offset_from_bottom": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": true
+        }
+    ],
+    "summary_row_rects_pattern": [
+        {
+            "x0": 42.75,
+            "x1": 133.2,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8706,
+                0.8863,
+                0.902
+            ],
+            "stroke_color": [
+                0.8706,
+                0.8863,
+                0.902
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 133.2,
+            "x1": 242.79,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8706,
+                0.8863,
+                0.902
+            ],
+            "stroke_color": [
+                0.8706,
+                0.8863,
+                0.902
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 242.79,
+            "x1": 342.82,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8706,
+                0.8863,
+                0.902
+            ],
+            "stroke_color": [
+                0.8706,
+                0.8863,
+                0.902
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 342.82,
+            "x1": 442.31,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8706,
+                0.8863,
+                0.902
+            ],
+            "stroke_color": [
+                0.8706,
+                0.8863,
+                0.902
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 442.31,
+            "x1": 542.33,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8706,
+                0.8863,
+                0.902
+            ],
+            "stroke_color": [
+                0.8706,
+                0.8863,
+                0.902
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 542.33,
+            "x1": 553.5,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8706,
+                0.8863,
+                0.902
+            ],
+            "stroke_color": [
+                0.8706,
+                0.8863,
+                0.902
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 43.28,
+            "x1": 133.2,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 133.2,
+            "x1": 242.79,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 242.79,
+            "x1": 342.82,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 342.82,
+            "x1": 442.31,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 442.31,
+            "x1": 542.33,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 542.33,
+            "x1": 553.5,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 42.75,
+            "x1": 43.28,
+            "y_offset": 0,
+            "height": 0,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        }
+    ],
+    "detail_row_rects_pattern": [
+        {
+            "x0": 52.33,
+            "x1": 133.2,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 133.2,
+            "x1": 342.82,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 342.82,
+            "x1": 546.58,
+            "y_offset": 0,
+            "height": 0.53,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": false,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 43.28,
+            "x1": 133.2,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 133.2,
+            "x1": 342.82,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 342.82,
+            "x1": 553.5,
+            "y_offset": 0.53,
+            "height": 0,
+            "fill_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "stroke_color": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        },
+        {
+            "x0": 42.75,
+            "x1": 43.28,
+            "y_offset": 0,
+            "height": 0,
+            "fill_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "stroke_color": [
+                0.8,
+                0.8,
+                0.8
+            ],
+            "width": 0,
+            "use_row_height": true,
+            "at_row_bottom": false
+        }
+    ]
+}
