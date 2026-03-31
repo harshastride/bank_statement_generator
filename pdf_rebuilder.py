@@ -23,6 +23,14 @@ from reportlab.pdfbase.ttfonts import TTFont
 _FONTS_REGISTERED = False
 
 
+def _font_is_available(font_name):
+    """Return True if a font is registered or built into ReportLab."""
+    return (
+        font_name in pdfmetrics.getRegisteredFontNames()
+        or font_name in pdfmetrics.standardFonts
+    )
+
+
 def _find_font_dirs():
     """Return a list of system font directories to search."""
     system = platform.system()
@@ -102,7 +110,7 @@ FONT_MAP = {
 def map_font(pdf_font_name):
     """Map a PDF font name to a registered TTF or built-in font."""
     if not pdf_font_name:
-        return "Arial"
+        return "Helvetica"
 
     # Direct lookup (case-insensitive, stripped)
     key = pdf_font_name.lower().replace(" ", "")
@@ -111,21 +119,31 @@ def map_font(pdf_font_name):
         key = key.split("+", 1)[1]
 
     if key in FONT_MAP:
-        return FONT_MAP[key]
+        mapped = FONT_MAP[key]
+    elif "bold" in key and "italic" in key:
+        mapped = "Arial-BoldItalic"
+    elif "bold" in key:
+        mapped = "Arial-Bold"
+    elif "italic" in key or "oblique" in key:
+        mapped = "Arial-Italic"
+    elif "courier" in key or "mono" in key:
+        mapped = "Courier"
+    elif "times" in key or "serif" in key:
+        mapped = "Times-Roman"
+    else:
+        mapped = "Arial"
 
-    # Heuristic fallback
-    if "bold" in key and "italic" in key:
-        return "Arial-BoldItalic"
-    if "bold" in key:
-        return "Arial-Bold"
-    if "italic" in key or "oblique" in key:
-        return "Arial-Italic"
-    if "courier" in key or "mono" in key:
-        return "Courier"
-    if "times" in key or "serif" in key:
-        return "Times-Roman"
+    # If Arial isn't installed on the host, fall back to ReportLab built-ins.
+    fallbacks = {
+        "Arial": "Helvetica",
+        "Arial-Bold": "Helvetica-Bold",
+        "Arial-Italic": "Helvetica-Oblique",
+        "Arial-BoldItalic": "Helvetica-BoldOblique",
+    }
+    if not _font_is_available(mapped):
+        mapped = fallbacks.get(mapped, mapped)
 
-    return "Arial"
+    return mapped if _font_is_available(mapped) else "Helvetica"
 
 
 # ── Color conversion ────────────────────────────────────────────────────────
@@ -166,7 +184,7 @@ def _draw_image_placeholder(c, x, rl_y, img):
     c.setFillColor(Color(0.95, 0.95, 0.95))
     c.rect(x, rl_y, img["width"], img["height"], stroke=1, fill=1)
     c.setFillColor(Color(0.6, 0.6, 0.6))
-    c.setFont("Arial", 6)
+    c.setFont("Helvetica", 6)
     label = img.get("file") or img.get("name") or "?"
     c.drawString(x + 2, rl_y + img["height"] / 2, f"[missing: {os.path.basename(label)}]")
 
@@ -186,7 +204,7 @@ def rebuild_pdf(layout, output_path):
     c = canvas.Canvas(output_path, pagesize=(page_w, page_h))
 
     # Set initial font to Arial so ReportLab doesn't default to Helvetica
-    c.setFont("Arial", 10)
+    c.setFont("Helvetica", 10)
 
     # Match source PDF metadata (Chrome print-to-PDF)
     c.setAuthor("")
